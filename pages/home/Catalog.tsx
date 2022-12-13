@@ -15,7 +15,7 @@ const Catalog = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark group-hover:from-dark/70 group-hover:via-dark/60 group-hover:to-dark/70"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
-              <h1 className="text-3xl font-Poppins font-bold text-white">
+              <h1 className="text-2xl font-Poppins font-bold text-white">
                 Dupa Bulat
               </h1>
               <img
@@ -36,7 +36,7 @@ const Catalog = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark group-hover:from-dark/70 group-hover:via-dark/60 group-hover:to-dark/70"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
-              <h1 className="text-3xl font-Poppins font-bold text-white">
+              <h1 className="text-2xl font-Poppins font-bold text-white">
                 Dupa Bulat
               </h1>
               <img
@@ -57,7 +57,7 @@ const Catalog = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark group-hover:from-dark/70 group-hover:via-dark/60 group-hover:to-dark/70"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
-              <h1 className="text-3xl font-Poppins font-bold text-white">
+              <h1 className="text-2xl font-Poppins font-bold text-white">
                 Dupa Bulat
               </h1>
               <img
@@ -78,7 +78,7 @@ const Catalog = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark group-hover:from-dark/70 group-hover:via-dark/60 group-hover:to-dark/70"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
-              <h1 className="text-3xl font-Poppins font-bold text-white">
+              <h1 className="text-2xl font-Poppins font-bold text-white">
                 Dupa Bulat
               </h1>
               <img
@@ -99,7 +99,7 @@ const Catalog = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark group-hover:from-dark/70 group-hover:via-dark/60 group-hover:to-dark/70"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
-              <h1 className="text-3xl font-Poppins font-bold text-white">
+              <h1 className="text-2xl font-Poppins font-bold text-white">
                 Dupa Bulat
               </h1>
               <img
@@ -120,7 +120,7 @@ const Catalog = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark group-hover:from-dark/70 group-hover:via-dark/60 group-hover:to-dark/70"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
-              <h1 className="text-3xl font-Poppins font-bold text-white">
+              <h1 className="text-2xl font-Poppins font-bold text-white">
                 Dupa Bulat
               </h1>
               <img
@@ -141,7 +141,7 @@ const Catalog = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark group-hover:from-dark/70 group-hover:via-dark/60 group-hover:to-dark/70"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
-              <h1 className="text-3xl font-Poppins font-bold text-white">
+              <h1 className="text-2xl font-Poppins font-bold text-white">
                 Dupa Bulat
               </h1>
               <img
@@ -162,7 +162,7 @@ const Catalog = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark group-hover:from-dark/70 group-hover:via-dark/60 group-hover:to-dark/70"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
-              <h1 className="text-3xl font-Poppins font-bold text-white">
+              <h1 className="text-2xl font-Poppins font-bold text-white">
                 Dupa Bulat
               </h1>
               <img

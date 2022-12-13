@@ -6,12 +6,13 @@ const Footer = () => {
       <footer className="bg-dark w-full px-3 box-border">
         <div className="w-11/12 px-3 mx-auto py-10">
           <div className="flex justify-between items-center">
-            <div className="flex flex-col justify-center ">
+            <div className="flex flex-col justify-center">
               <img
-                src="https://ik.imagekit.io/lshkgi0dm/il.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1670247427684"
+                src="https://ik.imagekit.io/lshkgi0dm/logo/Logo_Dewata_Agung.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670848742230"
                 alt=""
+                className="w-40 mx-auto"
               />
-              <div className="font-Poppins text-base text-white font-semibold">
+              <div className="font-Poppins text-base text-white font-semibold mt-5">
                 <p>Jl. Gunung Raung no 1 Selat, Samplangan, Gianyar</p>
               </div>
             </div>
