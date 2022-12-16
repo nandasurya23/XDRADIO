@@ -3,7 +3,7 @@
 const Featured = () => {
   return (
     <div className="w-11/12 px-3 mx-auto mt-10">
-      <div className="flex justify-between items-center">
+      <div className="flex flex-col justify-between space-y-6 items-center md:flex md:flex-row md:space-y-0">
         <div className="flex flex-col items-center mx-5">
           <div className="flex items-center">
             <img
@@ -15,7 +15,7 @@ const Featured = () => {
               Harga Dan Kualitas Terbaik
             </h1>
           </div>
-          <p className="text-center font-Poppins text-base font-normal mt-2 w-1/2 mx-auto">
+          <p className="text-center font-Poppins text-base font-normal mt-2 w-full mx-auto md:w-1/2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
             velit, vulputate eu pharetra nec, mattis ac neque Duis vulputate
             commodo lectus, ac blandit elit tincidunt id.
@@ -34,7 +34,7 @@ const Featured = () => {
             </h1>
           </div>
 
-          <p className="text-center font-Poppins text-base font-normal mt-2 w-1/2 mx-auto">
+          <p className="text-center font-Poppins text-base font-normal mt-2 w-full mx-auto md:w-1/2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
             velit, vulputate eu pharetra nec, mattis ac neque Duis vulputate
             commodo lectus, ac blandit elit tincidunt id.
@@ -53,7 +53,7 @@ const Featured = () => {
             </h1>
           </div>
 
-          <p className="text-center font-Poppins text-base font-normal mt-2 w-1/2 mx-auto">
+          <p className="text-center font-Poppins text-base font-normal mt-2 w-full mx-auto md:w-1/2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
             velit, vulputate eu pharetra nec, mattis ac neque Duis vulputate
             commodo lectus, ac blandit elit tincidunt id.

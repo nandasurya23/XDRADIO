@@ -40,70 +40,70 @@ const Best_Products = () => {
   return (
     <div className="w-full bg-gradient-to-br from-prime-1 to-yellow-2 mt-10">
       <div className="w-11/12 px-3 mx-auto">
-        <h1 className="text-center font-Poppins text-4xl font-semibold text-white tracking-wide pt-5">
+        <h1 className="text-center font-Poppins text-2xl font-semibold text-white tracking-wide pt-5 md:text-4xl">
           Produk Unggulan
         </h1>
-        <div className="mt-10">
+        <div className="py-10">
           <Slider {...settings}>
-            <div className="p-[30px]">
+            <div className="">
               <img
-                src="https://ik.imagekit.io/lshkgi0dm/x1-products.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670329873992"
+                src="https://ik.imagekit.io/lshkgi0dm/data/1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671184314687"
                 alt=""
                 className="shadow-lg rounded-xl"
               />
             </div>
 
-            <div className="p-[30px]">
+            <div className="">
               <img
-                src="https://ik.imagekit.io/lshkgi0dm/x1-products.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670329873992"
+                src="https://ik.imagekit.io/lshkgi0dm/data/2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671184314687"
                 alt=""
                 className="shadow-lg rounded-xl"
               />
             </div>
 
-            <div className="p-[30px]">
+            <div className="">
               <img
-                src="https://ik.imagekit.io/lshkgi0dm/x1-products.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670329873992"
+                src="https://ik.imagekit.io/lshkgi0dm/data/3.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671184314687"
                 alt=""
                 className="shadow-lg rounded-xl"
               />
             </div>
 
-            <div className="p-[30px]">
+            <div className="">
               <img
-                src="https://ik.imagekit.io/lshkgi0dm/x1-products.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670329873992"
+                src="https://ik.imagekit.io/lshkgi0dm/data/4.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671184314687"
                 alt=""
                 className="shadow-lg rounded-xl"
               />
             </div>
 
-            <div className="p-[30px]">
+            <div className="">
               <img
-                src="https://ik.imagekit.io/lshkgi0dm/x1-products.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670329873992"
+                src="https://ik.imagekit.io/lshkgi0dm/data/5.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671184314687"
                 alt=""
                 className="shadow-lg rounded-xl"
               />
             </div>
 
-            <div className="p-[30px]">
+            <div className="">
               <img
-                src="https://ik.imagekit.io/lshkgi0dm/x1-products.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670329873992"
+                src="https://ik.imagekit.io/lshkgi0dm/data/1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671184314687"
                 alt=""
                 className="shadow-lg rounded-xl"
               />
             </div>
 
-            <div className="p-[30px]">
+            <div className="">
               <img
-                src="https://ik.imagekit.io/lshkgi0dm/x1-products.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670329873992"
+                src="https://ik.imagekit.io/lshkgi0dm/data/2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671184314687"
                 alt=""
                 className="shadow-lg rounded-xl"
               />
             </div>
 
-            <div className="p-[30px]">
+            <div className="">
               <img
-                src="https://ik.imagekit.io/lshkgi0dm/x1-products.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670329873992"
+                src="https://ik.imagekit.io/lshkgi0dm/data/3.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671184314687"
                 alt=""
                 className="shadow-lg rounded-xl"
               />
