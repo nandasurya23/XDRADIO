@@ -71,6 +71,7 @@ export default function detail() {
               <span>{product.scent}</span>
             </div>
             <hr />
+
             <div className={clsx("flex flex-row justify-between mt-5")}>
               <button
                 className={clsx(
@@ -78,7 +79,13 @@ export default function detail() {
                   "md:w-1/2"
                 )}
               >
-                Pesan Sekarang
+                <a
+                  href="https://wa.me/082146426737"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Pesan Sekarang
+                </a>
               </button>
               <div></div>
             </div>
