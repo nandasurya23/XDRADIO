@@ -87,7 +87,6 @@ export default function detail() {
                   Pesan Sekarang
                 </a>
               </button>
-              <div></div>
             </div>
           </div>
         </div>
