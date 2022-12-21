@@ -1,4 +1,4 @@
-import All_Catalog from "./allcatalog/All_Catalog";
+import All_Catalog from "./catalog/All_Catalog";
 
 export default function catalog() {
   return (

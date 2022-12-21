@@ -3,7 +3,6 @@ import Featured from "./home/Featured";
 import HeroSection from "./home/HeroSection";
 import Catalog from "./home/Catalog";
 
-
 export default function Home() {
   return (
     <>
