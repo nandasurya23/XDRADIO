@@ -48,7 +48,9 @@ export default function detail() {
               )}
             >
               <p>Harga :</p>
-              <span>{product.price}</span>
+              <span>
+                {product.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
+              </span>
             </div>
             <hr />
             <div

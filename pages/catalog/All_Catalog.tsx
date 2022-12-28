@@ -11,6 +11,7 @@ import { products } from "../api/data/products";
 
 const All_Catalog = () => {
   const [query, setQuery] = useState("");
+
   return (
     <div className={clsx("w-11/12 px-3 mx-auto font-Poppins")}>
       <div
@@ -97,7 +98,10 @@ const All_Catalog = () => {
                       <span
                         className={clsx("text-sm font-medium", "md:text-base")}
                       >
-                        Rp. {item.price}
+                        Rp{" "}
+                        {item.price
+                          .toString()
+                          .replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
                       </span>
 
                       <span
@@ -116,7 +120,12 @@ const All_Catalog = () => {
                         "px-5 py-2 font-medium bg-gradient-to-br from-yellow-2 to-prime-1 text-center text-white rounded-b-xl"
                       )}
                     >
-                      <p>Stok {item.stock}</p>
+                      <p>
+                        Stok{" "}
+                        {item.stock
+                          .toString()
+                          .replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
+                      </p>
                     </div>
                   </div>
                 </Link>

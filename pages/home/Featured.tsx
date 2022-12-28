@@ -3,7 +3,7 @@
 import clsx from "clsx";
 import { FaStar } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
-import { FiShoppingBag } from "react-icons/fi";
+import { BsFillBagFill } from "react-icons/bs";
 import { MdOutlineMiscellaneousServices } from "react-icons/md";
 
 const Featured = () => {
@@ -36,7 +36,7 @@ const Featured = () => {
           </h1>
         </div>
         <div className={clsx("flex flex-col items-center text-center")}>
-          <FiShoppingBag size={40} />
+          <BsFillBagFill size={40} />
           <h1 className={clsx("font-Poppins text-lg font-semibold mt-4")}>
             Tersedia Di Berbagai Marketplace
           </h1>

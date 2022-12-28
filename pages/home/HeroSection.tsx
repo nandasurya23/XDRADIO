@@ -24,7 +24,7 @@ const HeroSection = () => {
         ></div>
         <div
           className={clsx(
-            "flex flex-col mx-auto items-center px-3 mt-5 ",
+            "flex flex-col mx-auto items-center px-3 mt-5",
             "md:flex md:flex-row"
           )}
         >
@@ -51,7 +51,8 @@ const HeroSection = () => {
               <button
                 className={clsx(
                   "mt-10 px-5 py-3 rounded-xl bg-gradient-to-b from-prime-2 to-dark text-white font-semibold w-full text-base tracking-wider",
-                  "md:w-1/2 md:text-xl"
+                  "md:w-1/2 md:text-xl",
+                  "hover:scale-105 ease-in-out transition-transform"
                 )}
               >
                 <a

@@ -19,7 +19,7 @@ const Catalog = () => {
           return (
             <div
               className={clsx(
-                "flex flex-row bg-gray rounded-xl ",
+                "flex flex-row bg-gray rounded-xl hover:scale-95 ease-in-out transition-transform duration-200 shadow-xl",
                 "md:flex-col"
               )}
               key={item.id}
@@ -45,8 +45,14 @@ const Catalog = () => {
         })}
       </div>
       <Link href="/catalog">
-        <div className="flex justify-center items-center">
-          <button className="mt-10 px-5 py-4 rounded-xl bg-gradient-to-b from-prime-2 to-dark text-white font-semibold w-full text-base tracking-wider md:w-1/4 md:text-xl">
+        <div className={clsx("flex justify-center items-center")}>
+          <button
+            className={clsx(
+              "mt-10 px-5 py-4 rounded-xl bg-gradient-to-b from-prime-2 to-dark text-white font-semibold w-full text-base tracking-wider",
+              "md:w-1/4 md:text-xl",
+              "hover:scale-105 ease-in-out transition-transform"
+            )}
+          >
             Lihat Selengkapnya
           </button>
         </div>
