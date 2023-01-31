@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: "XDPrime-Reg";
+    src: url("../public/fonts/XDPrime/XDPrime-Regular.otf");
+  }
+
+  @font-face {
+    font-family: "XDPrime-Bold";
+    src: url("../public/fonts/XDPrime/XDPrime-Bold.otf");
+  }
+
+  @font-face {
+    font-family: "XDPrime-BoldItalic";
+    src: url("../public/fonts/XDPrime/XDPrime-BoldItalic.otf");
+  }
+}
+
 .slick-slide > div {
   margin: 0 20px;
 }

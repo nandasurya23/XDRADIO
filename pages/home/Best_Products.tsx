@@ -40,11 +40,7 @@ const Best_Products = () => {
     ],
   };
   return (
-    <div
-      className={clsx(
-        "w-full bg-gradient-to-br from-prime-1 to-yellow-2 mt-10"
-      )}
-    >
+    <div className={clsx("w-full bg-gradient-to-br from-dark to-prime-1")}>
       <div className={clsx("w-11/12 px-3 mx-auto")}>
         <h1
           className={clsx(

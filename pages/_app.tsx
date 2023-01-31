@@ -10,10 +10,10 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <link
           rel="shortcut icon"
-          href="https://ik.imagekit.io/lshkgi0dm/logo/Logo_Dewata_Agung.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670848742230"
+          href="https://res.cloudinary.com/df82hir2r/image/upload/v1675135466/xdradio/18_utaonl.png"
           type="image/x-icon"
         />
-        <title>Dewata Agung Dupa</title>
+        <title>XD RADIO</title>
       </Head>
       <Navbar />
       <Component {...pageProps} />
