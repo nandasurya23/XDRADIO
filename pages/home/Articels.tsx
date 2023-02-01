@@ -1,12 +1,7 @@
 import clsx from "clsx";
 import { articel } from "../api/data/articel";
-import Readmore from "../components/Readmore";
 
 /* eslint-disable @next/next/no-img-element */
-
-interface articel {
-  description: string;
-}
 const Articels = () => {
   return (
     <section className="bg-prime-1">
@@ -42,7 +37,7 @@ const Articels = () => {
                   <span className={clsx("text-lg font-medium")}>
                     {item.title}
                   </span>
-                  <Readmore description={item.slug} />
+                  <p className="text-sm font-normal">{item.slug}</p>
                 </div>
               </div>
             );
