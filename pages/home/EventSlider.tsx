@@ -11,7 +11,8 @@ const EventSlider = () => {
     speed: 500,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 3000,
+    lazyload: true,
+    autoplaySpeed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
@@ -56,7 +57,7 @@ const EventSlider = () => {
                   <img
                     src={items.image}
                     alt=""
-                    className={clsx("shadow-xl rounded-2xl w-full  mx-auto")}
+                    className={clsx("rounded-2xl w-full  mx-auto")}
                   />
                 </div>
               );
