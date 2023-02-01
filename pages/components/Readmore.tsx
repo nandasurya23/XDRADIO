@@ -5,7 +5,7 @@ interface Props {
   limit?: number;
 }
 
-const ReadMore: React.FC<Props> = ({ description, limit = 100 }) => {
+const Readmore: React.FC<Props> = ({ description, limit = 100 }) => {
   const [isExpanded, setExpanded] = useState(false);
   const toggleExpanded = () => setExpanded(!isExpanded);
 
@@ -39,4 +39,4 @@ const ReadMore: React.FC<Props> = ({ description, limit = 100 }) => {
   );
 };
 
-export default ReadMore;
+export default Readmore;

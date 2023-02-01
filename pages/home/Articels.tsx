@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import { articel } from "../api/data/articel";
-import ReadMore from "../components/Readmore";
+import Readmore from "../components/Readmore";
 
 /* eslint-disable @next/next/no-img-element */
 
@@ -42,7 +42,7 @@ const Articels = () => {
                   <span className={clsx("text-lg font-medium")}>
                     {item.title}
                   </span>
-                  <ReadMore description={item.slug} />
+                  <Readmore description={item.slug} />
                 </div>
               </div>
             );
