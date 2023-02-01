@@ -56,9 +56,7 @@ const EventSlider = () => {
                   <img
                     src={items.image}
                     alt=""
-                    className={clsx(
-                      "shadow-xl rounded-xl md:h-[450px] lg:h-[650px] w-full  mx-auto"
-                    )}
+                    className={clsx("shadow-xl rounded-xl w-full  mx-auto")}
                   />
                 </div>
               );
