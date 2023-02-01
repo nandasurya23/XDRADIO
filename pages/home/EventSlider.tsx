@@ -11,7 +11,7 @@ const EventSlider = () => {
     speed: 500,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 500,
+    autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,

@@ -9,6 +9,7 @@ const Program = () => {
     dots: true,
     speed: 500,
     arrows: false,
+    lazyload: true,
     autoplay: true,
     autoplaySpeed: 3000,
     slidesToShow: 4,
