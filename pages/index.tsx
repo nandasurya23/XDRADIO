@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <EventSlider />
       <HeroSection />
-      <Articels />
+      {/* <Articels /> */}
       <Program />
     </>
   );
