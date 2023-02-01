@@ -19,9 +19,8 @@
   }
 }
 
-.slick-slide > div {
-  margin: 0 20px;
-}
-.slick-list {
-  margin: 0 -10px;
+.slick-dots li button::before {
+  color: #1ccad3 !important;
+  font-size: 12px !important;
+  margin-top: 10px !important;
 }

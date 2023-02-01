@@ -1,13 +1,15 @@
-import Best_Products from "./home/Best_Products";
 import HeroSection from "./home/HeroSection";
-import Catalog from "./home/Catalog";
+import EventSlider from "./home/EventSlider";
+import Articels from "./home/Articels";
+import Program from "./home/Program";
 
 export default function Home() {
   return (
     <>
+      <EventSlider />
       <HeroSection />
-      <Best_Products />
-      <Catalog />
+      <Articels />
+      <Program />
     </>
   );
 }

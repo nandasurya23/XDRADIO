@@ -15,7 +15,7 @@ const Navbar = () => {
     >
       <div
         className={clsx(
-          "mx-auto flex flex-wrap container justify-between items-center",
+          "mx-auto flex container justify-between items-center",
           " md:flex-nowrap "
         )}
       >
@@ -23,7 +23,7 @@ const Navbar = () => {
           <img
             src="https://res.cloudinary.com/df82hir2r/image/upload/v1675135466/xdradio/18_utaonl.png"
             alt=""
-            className={clsx("w-20")}
+            className={clsx("w-10 md:w-20")}
           />
         </div>
         <FiMenu
@@ -34,7 +34,7 @@ const Navbar = () => {
         <nav
           className={`${
             open ? "block" : "hidden"
-          } md:flex md:items-center md:w-auto`}
+          } md:flex  md:items-center md:w-auto`}
         >
           <ul
             className={clsx(

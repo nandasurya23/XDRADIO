@@ -1,16 +1,18 @@
 /* eslint-disable @next/next/no-img-element */
 import { RiFacebookCircleLine } from "react-icons/ri";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { SiTiktok } from "react-icons/si";
+import { SiTwitter } from "react-icons/si";
 import { BiCopyright } from "react-icons/bi";
+import { MdEmail } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa";
 import clsx from "clsx";
 import Link from "next/link";
 
 const Footer = () => {
   return (
     <>
-      <footer className={clsx("bg-dark w-full px-3 box-border")}>
-        <div className={clsx("w-11/12 px-3 mx-auto py-10")}>
+      <footer className={clsx("bg-dark w-full px-3 box-border font-XDPrime")}>
+        <div className={clsx("container px-3 mx-auto py-10")}>
           <div
             className={clsx(
               "flex flex-col justify-between items-center",
@@ -19,64 +21,81 @@ const Footer = () => {
           >
             <div className={clsx("flex flex-col justify-center", "md:w-full")}>
               <img
-                src="https://ik.imagekit.io/lshkgi0dm/logo/Logo_Dewata_Agung.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670848742230"
+                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675135466/xdradio/18_utaonl.png"
                 alt=""
                 className={clsx("w-20 mx-auto", "md:mx-20")}
               />
               <div
                 className={clsx(
-                  "font-Poppins text-sm text-justify  text-white font-semibold mt-5",
+                  " text-sm text-justify  text-white font-semibold mt-5",
                   "md:text-base md:text-left"
                 )}
               >
-                <p>Jl. Gunung Raung no 1 Selat, Samplangan, Gianyar</p>
+                <p>Jln. Tukad Badung No 135 Denpasar</p>
               </div>
+              <a
+                href="https://wa.me/6283114226818"
+                target="_blank"
+                rel="noreferrer"
+                className="text-white"
+              >
+                <div className={clsx("flex items-center justify-start mt-5")}>
+                  <FaWhatsapp size={20} className={clsx("mr-2")} />
+                  <p className={clsx("text-lg")}>083114226818</p>
+                </div>
+              </a>
             </div>
             <div
               className={clsx(
-                "flex flex-col w-full font-Poppins text-white mt-5 ",
+                "flex flex-col w-full text-white mt-5 ",
                 "md:mt-0"
               )}
             >
               <h1 className={clsx("text-xl font-semibold")}>Main Menu</h1>
-              <ul className={clsx("mt-3")}>
-                <li className={clsx("my-3 hover:text-prime-1 cursor-pointer")}>
-                  <Link href="/">Beranda</Link>
+              <ul className={clsx("mt-0")}>
+                <li className={clsx("my-3 hover:text-prime-2 cursor-pointer")}>
+                  <Link href="/">Home</Link>
                 </li>
-                <li className={clsx("my-3 hover:text-prime-1 cursor-pointer")}>
-                  <Link href="/catalog">Katalog</Link>
+                <li className={clsx("my-3 hover:text-prime-2 cursor-pointer")}>
+                  <Link href="/catalog">Program</Link>
                 </li>
-                <li className={clsx("my-3 hover:text-prime-1 cursor-pointer")}>
-                  <Link href="/contact">Hubungi kami</Link>
+                <li className={clsx("my-3 hover:text-prime-2 cursor-pointer")}>
+                  <Link href="/contact">Announcer</Link>
+                </li>
+                <li className={clsx("my-3 hover:text-prime-2 cursor-pointer")}>
+                  <Link href="/contact">Gallery</Link>
+                </li>
+                <li className={clsx("my-3 hover:text-prime-2 cursor-pointer")}>
+                  <Link href="/contact">About US</Link>
                 </li>
               </ul>
             </div>
             <div
               className={clsx(
-                "flex flex-col font-Poppins text-white w-full mt-5 ",
+                "flex flex-col text-white w-full mt-5 ",
                 "md:w-1/2 md:mt-0"
               )}
             >
-              <h1 className={clsx("text-xl font-semibold")}>Temukan Kami</h1>
+              <h1 className={clsx("text-xl font-semibold")}>Find US</h1>
               <a
                 href="https://www.facebook.com/profile.php?id=100087486210259"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div className={clsx("flex items-center justify-start mt-5")}>
-                  <RiFacebookCircleLine className={clsx("mr-2")} />
-                  <p className={clsx("text-lg")}>Dewata Agung</p>
+                  <RiFacebookCircleLine size={20} className={clsx("mr-2")} />
+                  <p className={clsx("text-lg")}>XDRADIOBALI</p>
                 </div>
               </a>
 
               <a
-                href="https://www.instagram.com/dewataagung_/"
+                href="https://www.instagram.com/xdradiobali"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div className={clsx("flex items-center justify-start mt-5")}>
-                  <AiOutlineInstagram className="mr-2" />
-                  <p className={clsx("text-lg")}>dewataagung_</p>
+                  <AiOutlineInstagram size={20} className="mr-2" />
+                  <p className={clsx("text-lg")}>XDRADIOBALI</p>
                 </div>
               </a>
 
@@ -86,19 +105,29 @@ const Footer = () => {
                 rel="noreferrer"
               >
                 <div className={clsx("flex items-center justify-start mt-5")}>
-                  <SiTiktok className={clsx("mr-2")} />
-                  <p className={clsx("text-lg")}>@_dewata_agung</p>
+                  <SiTwitter size={20} className={clsx("mr-2")} />
+                  <p className={clsx("text-lg")}>XDRADIOBALI</p>
+                </div>
+              </a>
+              <a
+                href="https://www.tiktok.com/@_dewata_agung"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className={clsx("flex items-center justify-start mt-5")}>
+                  <MdEmail size={20} className={clsx("mr-2")} />
+                  <p className={clsx("text-lg")}>xdradio@primakara.ac.id</p>
                 </div>
               </a>
             </div>
           </div>
         </div>
       </footer>
-      <div
-        className={clsx("flex items-center justify-center font-Poppins my-3")}
-      >
+      <div className={clsx("flex items-center justify-center my-3")}>
         <BiCopyright size={30} />
-        <p className={clsx("text-lg font-semibold ml-2 ")}>Dewata Agung Dupa</p>
+        <p className={clsx("text-lg font-semibold ml-2 ")}>
+          @2022 XD RADIO YUDHA BALI 90.2 FM Your Extra Ordinary Music Station
+        </p>
       </div>
     </>
   );
