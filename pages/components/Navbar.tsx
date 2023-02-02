@@ -10,12 +10,12 @@ const Navbar = () => {
   return (
     <section
       className={clsx(
-        "box-border bg-prime-1/50 px-3 py-5 fixed w-full z-50 shadow-xl "
+        "box-border bg-prime-1/50 px-3 py-5 fixed w-full z-50 shadow-xl backdrop-filter backdrop-blur-2xl "
       )}
     >
       <div
         className={clsx(
-          "mx-auto flex container justify-between items-center",
+          "mx-auto flex flex-wrap w-full container justify-between items-center",
           " md:flex-nowrap "
         )}
       >

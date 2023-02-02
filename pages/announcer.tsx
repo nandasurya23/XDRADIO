@@ -10,44 +10,44 @@ const announcer = () => {
       )}
     >
       <div className="container px-3 mx-auto">
-        <h1 className="xd-prime-b font-bold text-center text-5xl text-prime-2">
+        <h1 className="xd-prime-b font-bold text-center text-3xl md:text-5xl text-prime-2">
           ANNOUNCER
         </h1>
-        <div className="flex flex-wrap justify-around gap-20 items-center mt-10 fade">
+        <div className="flex flex-wrap justify-around gap-10 md:gap-20 items-center mt-10 fade">
           <img
             src="https://res.cloudinary.com/df82hir2r/image/upload/v1675343358/xdradio/announcer/a_wnf1ae.jpg"
             alt=""
-            className="w-80 rounded-2xl hover:shadow-2xl hover:scale-105 duration-300 cursor-pointer"
+            className="w-52 md:w-80 rounded-2xl hover:shadow-2xl hover:scale-105 duration-300 cursor-pointer"
           />
           <img
             src="https://res.cloudinary.com/df82hir2r/image/upload/v1675343357/xdradio/announcer/b_hfc9rv.jpg"
             alt=""
-            className="w-80 rounded-2xl hover:shadow-2xl hover:scale-105 duration-300 cursor-pointer"
+            className="w-52 md:w-80 rounded-2xl hover:shadow-2xl hover:scale-105 duration-300 cursor-pointer"
           />
           <img
             src="https://res.cloudinary.com/df82hir2r/image/upload/v1675343357/xdradio/announcer/c_zpustg.jpg"
             alt=""
-            className="w-80 rounded-2xl hover:shadow-2xl hover:scale-105 duration-300 cursor-pointer"
+            className="w-52 md:w-80 rounded-2xl hover:shadow-2xl hover:scale-105 duration-300 cursor-pointer"
           />
           <img
             src="https://res.cloudinary.com/df82hir2r/image/upload/v1675343357/xdradio/announcer/d_zwypvt.jpg"
             alt=""
-            className="w-80 rounded-2xl hover:shadow-2xl hover:scale-105 duration-300 cursor-pointer"
+            className="w-52 md:w-80 rounded-2xl hover:shadow-2xl hover:scale-105 duration-300 cursor-pointer"
           />
           <img
             src="https://res.cloudinary.com/df82hir2r/image/upload/v1675343357/xdradio/announcer/e_suhyoy.jpg"
             alt=""
-            className="w-80 rounded-2xl hover:shadow-2xl hover:scale-105 duration-300 cursor-pointer"
+            className="w-52 md:w-80 rounded-2xl hover:shadow-2xl hover:scale-105 duration-300 cursor-pointer"
           />
           <img
             src="https://res.cloudinary.com/df82hir2r/image/upload/v1675343357/xdradio/announcer/f_vuay1n.jpg"
             alt=""
-            className="w-80 rounded-2xl hover:shadow-2xl hover:scale-105 duration-300 cursor-pointer"
+            className="w-52 md:w-80 rounded-2xl hover:shadow-2xl hover:scale-105 duration-300 cursor-pointer"
           />
           <img
             src="https://res.cloudinary.com/df82hir2r/image/upload/v1675343357/xdradio/announcer/g_zfq8l5.jpg"
             alt=""
-            className="w-80 rounded-2xl hover:shadow-2xl hover:scale-105 duration-300 cursor-pointer "
+            className="w-52 md:w-80 rounded-2xl hover:shadow-2xl hover:scale-105 duration-300 cursor-pointer "
           />
         </div>
       </div>
