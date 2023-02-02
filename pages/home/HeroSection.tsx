@@ -37,7 +37,7 @@ const HeroSection = () => {
             </Suspense>
           </div>
           <div className={clsx("flex flex-col mx-8 font-XDPrime")}>
-            <h1 className="text-2xl italic  font-bold md:text-5xl tracking-wider">
+            <h1 className="text-2xl italic  font-black md:text-5xl tracking-wider">
               XD RADIO YUDHA
             </h1>
             <p className="text-justify text-lg font-medium tracking-wide mt-3 italic">

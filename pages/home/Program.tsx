@@ -23,6 +23,7 @@ const Program = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
+          dots: false,
         },
       },
       {
@@ -31,6 +32,7 @@ const Program = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
+          dots: false,
         },
       },
       {
@@ -38,6 +40,7 @@ const Program = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: false,
         },
       },
     ],

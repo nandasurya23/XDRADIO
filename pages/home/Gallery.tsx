@@ -14,8 +14,18 @@ const Gallery = () => {
     autoplay: true,
     autoplaySpeed: 4000,
     slidesToShow: 1,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     initialSlide: 0,
+    customPaging: (i: any) => {
+      return (
+        <img
+          src={gallery[i].dotImage}
+          alt={`dot-image-${i}`}
+          className="w-20 h-8 slick-thumb"
+        />
+      );
+    },
+    dotsClass: "slick-dots slick-thumb",
     responsive: [
       {
         breakpoint: 1024,
@@ -23,6 +33,7 @@ const Gallery = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
+          dots: false,
         },
       },
       {
@@ -31,6 +42,7 @@ const Gallery = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
+          dots: false,
         },
       },
       {
@@ -38,6 +50,7 @@ const Gallery = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: false,
         },
       },
     ],

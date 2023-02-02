@@ -4,13 +4,27 @@
 
 @layer base {
   @font-face {
-    font-family: "XDPrime";
+    font-family: "XDPrimeR";
     src: url("../public/fonts/XDPrime/XDPrime-Regular.otf");
+  }
+  @font-face {
+    font-family: "XDPrimeB";
+    src: url("../public/fonts/XDPrime/XDPrime-Bold.otf");
+  }
+  @font-face {
+    font-family: "XDPrimeEB";
+    src: url("../public/fonts/XDPrime/XDPrime-ExtraBold.otf");
   }
 }
 
 .slick-dots li button::before {
   color: #1ccad3 !important;
-  font-size: 12px !important;
-  margin-top: 10px !important;
+  font-size: 20px !important;
+  width: 60px !important;
+  margin-top: 20px !important;
+}
+
+.slick-dots li {
+  margin: 0 10px !important;
+  width: 60px !important;
 }
