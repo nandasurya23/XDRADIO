@@ -21,11 +21,7 @@ const HeroSection = () => {
             "md:flex md:flex-row"
           )}
         >
-          <div
-            className={clsx(
-              "px-3 py-3 bg-gradient-to-br w-full h-80 from-prime-1 to-prime-2 rounded-md shadow-lg "
-            )}
-          >
+          <div className={clsx(" w-full h-96 rounded-md")}>
             <Suspense fallback={<div>Loading...</div>}>
               <ReactPlayer
                 url="https://youtu.be/mnT33cOpDd8"
@@ -36,7 +32,7 @@ const HeroSection = () => {
               />
             </Suspense>
           </div>
-          <div className={clsx("flex flex-col mx-8 font-XDPrime")}>
+          <div className={clsx("flex flex-col w-11/12 mx-8 font-XDPrime")}>
             <h1 className="text-2xl italic  font-black md:text-5xl tracking-wider">
               XD RADIO YUDHA
             </h1>

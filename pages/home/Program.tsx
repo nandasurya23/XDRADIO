@@ -7,7 +7,6 @@ import Image from "next/image";
 
 const Program = () => {
   const settings = {
-    dots: true,
     speed: 500,
     arrows: false,
     lazyload: true,

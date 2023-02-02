@@ -9,7 +9,6 @@ import Image from "next/image";
 
 const EventSlider = () => {
   const settings = {
-    dots: true,
     speed: 500,
     arrows: false,
     autoplay: true,
