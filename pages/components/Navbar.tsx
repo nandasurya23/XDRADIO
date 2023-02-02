@@ -4,6 +4,7 @@ import { useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import { FiRadio } from "react-icons/fi";
 
+
 /* eslint-disable @next/next/no-img-element */
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -60,11 +61,13 @@ const Navbar = () => {
           </ul>
         </nav>
         <div className="hidden md:block">
-          <FiRadio
-            color="white"
-            size={40}
-            className="cursor-pointer hover:scale-105 ease-in-out transition-transform"
-          />
+          <a href="http://c4.siar.us:8940/stream">
+            <FiRadio
+              color="white"
+              size={40}
+              className="cursor-pointer hover:scale-105 ease-in-out transition-transform"
+            />
+          </a>
         </div>
       </div>
     </section>

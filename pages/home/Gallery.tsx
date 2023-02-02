@@ -1,11 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import clsx from "clsx";
 import React from "react";
-import Slider from "react-slick";
-import { annoucer } from "../api/data/annoucer";
 import Image from "next/image";
+import clsx from "clsx";
+import Slider from "react-slick";
+import { gallery } from "../api/data/gallery";
 
-const Program = () => {
+const Gallery = () => {
   const settings = {
     dots: true,
     speed: 500,
@@ -13,7 +13,7 @@ const Program = () => {
     lazyload: true,
     autoplay: true,
     autoplaySpeed: 4000,
-    slidesToShow: 4,
+    slidesToShow: 1,
     slidesToScroll: 2,
     initialSlide: 0,
     responsive: [
@@ -43,24 +43,19 @@ const Program = () => {
     ],
   };
   return (
-    <section className="bg-prime-1">
-      <div className="container px-3 mx-auto font-XDPrime pb-20">
-        <div className="text-3xl text-center font-bold text-prime-2 space-y-3">
-          <h1>Meet Our Announcer On</h1>
-          <h1>PROGRAM XD RADIO YUDHA 90.2 FM</h1>
-        </div>
-      </div>
-      <div className={clsx("container px-3 mx-auto")}>
-        <div className={clsx("pt-2 pb-10")}>
+    <section className="bg-prime-1 font-XDPrime text-white pt-20">
+      <div className="container mx-auto">
+        <h1 className="text-center text-prime-2 text-3xl font-bold">Gallery</h1>
+        <div className={clsx("pt-2 pb-10 mt-10")}>
           <Slider {...settings}>
-            {annoucer.map((items) => {
+            {gallery.map((items) => {
               return (
-                <div key={items.id} className="flex items-center">
+                <div key={items.id} className="flex items-center px-3">
                   <Image
                     src={items.image}
                     alt=""
                     className={clsx(
-                      "w-full object-contain object-center mx-auto"
+                      "w-full object-contain object-center mx-auto rounded-2xl"
                     )}
                     width={800}
                     height={0}
@@ -75,4 +70,4 @@ const Program = () => {
   );
 };
 
-export default Program;
+export default Gallery;

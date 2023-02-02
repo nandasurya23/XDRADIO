@@ -5,10 +5,13 @@ const nextConfig = {
   publicRuntimeConfig: {
     hydrate: false
   },
+  images: {
+    domains: [
+      'res.cloudinary.com'
+    ]
+  }
 };
-const images = {
-  domains: ["ik.imagekit.io/lshkgi0dm/*"],
-};
+
 
 
 

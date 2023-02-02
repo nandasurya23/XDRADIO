@@ -1,10 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { lazy, Suspense } from "react";
+import React, { lazy, Suspense, useEffect, useState } from "react";
 const ReactPlayer = lazy(() => import("react-player"));
 import dynamic from "next/dynamic";
 
 import clsx from "clsx";
 const HeroSection = () => {
+  const [playing, setPlaying] = useState(true);
+
+  useEffect(() => {
+    setPlaying(true);
+  }, []);
   return (
     <div
       className={clsx("w-full bg-prime-1 font-XDPrime text-white pt-10 pb-20")}
@@ -24,7 +29,7 @@ const HeroSection = () => {
             <Suspense fallback={<div>Loading...</div>}>
               <ReactPlayer
                 url="https://youtu.be/mnT33cOpDd8"
-                playing={true}
+                playing={playing}
                 loop
                 width="100%"
                 height="100%"
@@ -39,10 +44,13 @@ const HeroSection = () => {
               Your Extra Ordinary Music Station
             </p>
             <p className="text-justify text-lg mt-8">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Pariatur, optio ipsam totam perspiciatis molestias quam dolorum
-              impedit veniam aliquid dolore corporis numquam laborum, aspernatur
-              officiis aperiam repellat incidunt dolores hic.
+              Holaa XD People !! XD Radio dengan Station Call “Your Extra
+              Ordinary Music Station” akan selalu menemani kamu dengan Playlist
+              yang bakal bikin suasana Good Mood dan kamu akan selalu Merasa
+              Bahwa HARI INI IS A GOOD DAY !!
+            </p>
+            <p className="text-justify text-lg ">
+              So What You Waiting For , Come Test Our Wave !!!!
             </p>
 
             <div className={clsx("flex justify-start items-center")}>
@@ -61,6 +69,7 @@ const HeroSection = () => {
                   Streaming Radio 90.2 FM
                 </a>
               </button>
+              <audio src="http://c4.siar.us:8940/stream"></audio>
             </div>
           </div>
         </div>

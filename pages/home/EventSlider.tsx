@@ -1,9 +1,11 @@
+/* eslint-disable react/jsx-no-undef */
 /* eslint-disable @next/next/no-img-element */
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import clsx from "clsx";
 import { event } from "../api/data/event";
+import Image from "next/image";
 
 const EventSlider = () => {
   const settings = {
@@ -54,10 +56,12 @@ const EventSlider = () => {
             {event.map((items) => {
               return (
                 <div key={items.id}>
-                  <img
+                  <Image
                     src={items.image}
                     alt=""
                     className={clsx("rounded-2xl w-full  mx-auto")}
+                    width={800}
+                    height={0}
                   />
                 </div>
               );

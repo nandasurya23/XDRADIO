@@ -4,18 +4,8 @@
 
 @layer base {
   @font-face {
-    font-family: "XDPrime-Reg";
+    font-family: "XDPrime";
     src: url("../public/fonts/XDPrime/XDPrime-Regular.otf");
-  }
-
-  @font-face {
-    font-family: "XDPrime-Bold";
-    src: url("../public/fonts/XDPrime/XDPrime-Bold.otf");
-  }
-
-  @font-face {
-    font-family: "XDPrime-BoldItalic";
-    src: url("../public/fonts/XDPrime/XDPrime-BoldItalic.otf");
   }
 }
 
