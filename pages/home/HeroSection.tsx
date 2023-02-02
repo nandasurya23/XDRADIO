@@ -11,9 +11,7 @@ const HeroSection = () => {
     setPlaying(true);
   }, []);
   return (
-    <div
-      className={clsx("w-full bg-prime-1 font-XDPrime text-white pt-10 pb-20")}
-    >
+    <div className={clsx("w-full bg-prime-1 text-white pt-10 pb-20")}>
       <div className={clsx("container mx-auto")}>
         <div
           className={clsx(
@@ -32,27 +30,27 @@ const HeroSection = () => {
               />
             </Suspense>
           </div>
-          <div className={clsx("flex flex-col w-11/12 mx-8 font-XDPrime")}>
-            <h1 className="text-2xl italic  font-black md:text-5xl tracking-wider">
+          <div className={clsx("flex flex-col w-11/12 mx-8")}>
+            <h1 className="text-2xl xd-prime-eb italic font-extrabold md:text-5xl tracking-wider">
               XD RADIO YUDHA
             </h1>
-            <p className="text-justify text-lg font-medium tracking-wide mt-3 italic">
+            <p className="text-justify text-lg xd-prime-b italic font-bold tracking-wide mt-3">
               Your Extra Ordinary Music Station
             </p>
-            <p className="text-justify text-lg mt-8">
+            <p className="text-justify text-lg mt-8 xd-prime-r">
               Holaa XD People !! XD Radio dengan Station Call “Your Extra
               Ordinary Music Station” akan selalu menemani kamu dengan Playlist
               yang bakal bikin suasana Good Mood dan kamu akan selalu Merasa
               Bahwa HARI INI IS A GOOD DAY !!
             </p>
-            <p className="text-justify text-lg ">
+            <p className="text-justify text-lg xd-prime-r">
               So What You Waiting For , Come Test Our Wave !!!!
             </p>
 
             <div className={clsx("flex justify-start items-center")}>
               <button
                 className={clsx(
-                  "mt-10 px-5 py-3 rounded-xl bg-gradient-to-br from-prime-2 to-prime-1 text-white w-full text-base tracking-wider shadow-xl font-bold",
+                  "mt-10 px-5 py-3 rounded-xl bg-gradient-to-br from-prime-2 to-prime-1 text-white w-full text-base tracking-wider shadow-xl xd-prime-b font-bold",
                   "md:w-3/4 md:text-xl",
                   "hover:scale-105 ease-in-out transition-transform"
                 )}

@@ -4,7 +4,6 @@ import { useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import { FiRadio } from "react-icons/fi";
 
-
 /* eslint-disable @next/next/no-img-element */
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -39,7 +38,7 @@ const Navbar = () => {
         >
           <ul
             className={clsx(
-              "text-white font-XDPrime font-medium mt-5 space-y-3",
+              "text-white xd-prime-b mt-5 space-y-3",
               "md:space-y-0 md:mt-0 md:flex"
             )}
           >

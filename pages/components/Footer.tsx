@@ -11,7 +11,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className={clsx("bg-dark w-full px-3 box-border font-XDPrime")}>
+      <footer className={clsx("bg-dark w-full px-3 box-border xd-prime-b")}>
         <div className={clsx("container px-3 mx-auto py-10")}>
           <div
             className={clsx(
@@ -27,7 +27,7 @@ const Footer = () => {
               />
               <div
                 className={clsx(
-                  " text-sm text-justify  text-white font-semibold mt-5",
+                  " text-sm text-justify  text-white font-bold mt-5",
                   "md:text-base md:text-left"
                 )}
               >
@@ -51,7 +51,7 @@ const Footer = () => {
                 "md:mt-0"
               )}
             >
-              <h1 className={clsx("text-xl font-semibold")}>Main Menu</h1>
+              <h1 className={clsx("text-xl font-bold")}>Main Menu</h1>
               <ul className={clsx("mt-0")}>
                 <li className={clsx("my-3 hover:text-prime-2 cursor-pointer")}>
                   <Link href="/">Home</Link>
@@ -76,7 +76,7 @@ const Footer = () => {
                 "md:w-1/2 md:mt-0"
               )}
             >
-              <h1 className={clsx("text-xl font-semibold")}>Find US</h1>
+              <h1 className={clsx("text-xl font-bold")}>Find US</h1>
               <a
                 href="https://www.facebook.com/profile.php?id=100087486210259"
                 target="_blank"

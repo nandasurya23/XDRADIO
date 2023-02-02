@@ -56,9 +56,11 @@ const Gallery = () => {
     ],
   };
   return (
-    <section className="bg-prime-1 font-XDPrime text-white pt-20">
+    <section className="bg-prime-1 xd-prime-b text-white pt-20 pb-20">
       <div className="container mx-auto">
-        <h1 className="text-center text-prime-2 text-3xl font-bold">Gallery</h1>
+        <h1 className="text-center text-prime-2 text-3xl font-semibold ">
+          Gallery
+        </h1>
         <div className={clsx("pt-2 pb-10 mt-10")}>
           <Slider {...settings}>
             {gallery.map((items) => {

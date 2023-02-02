@@ -18,7 +18,7 @@ module.exports = {
     },
     fontFamily: {
       Poppins: ["Poppins, sans-serif"],
-      XDPrime: ["XDPrime"],
+      XDPrime: ["XDPrime, sans-serif"],
     },
   },
   plugins: [],

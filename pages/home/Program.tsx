@@ -46,8 +46,8 @@ const Program = () => {
   };
   return (
     <section className="bg-prime-1">
-      <div className="container px-3 mx-auto font-XDPrime pb-20">
-        <div className="text-3xl text-center font-bold text-prime-2 space-y-3">
+      <div className="container px-3 mx-auto xd-prime-b pb-20">
+        <div className="text-3xl text-center font-semibold text-prime-2 space-y-3">
           <h1>Meet Our Announcer On</h1>
           <h1>PROGRAM XD RADIO YUDHA 90.2 FM</h1>
         </div>
@@ -62,7 +62,7 @@ const Program = () => {
                     src={items.image}
                     alt=""
                     className={clsx(
-                      "w-full object-contain object-center mx-auto"
+                      "w-full object-contain object-center mx-auto hover:scale-105 duration-200 ease-in-out transition-transform"
                     )}
                     width={800}
                     height={0}

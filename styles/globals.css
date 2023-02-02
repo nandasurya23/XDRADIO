@@ -5,8 +5,36 @@
 @layer base {
   @font-face {
     font-family: "XDPrimeR";
-    src: url("../public/fonts/XDPrime/XDPrime-ExtraBold.otf");
+    src: url("../public/fonts/XDPrime/XDPrime-Regular.otf")
+      format("open type format");
+    font-weight: normal;
+    font-style: normal;
   }
+  @font-face {
+    font-family: "XDPrimeB";
+    src: url("../public/fonts/XDPrime/XDPrime-Bold.otf")
+      format("open type format");
+    font-weight: 900;
+  }
+  @font-face {
+    font-family: "XDPrimeEB";
+    src: url("../public/fonts/XDPrime/XDPrime-ExtraBold.otf")
+      format("open type format");
+    font-weight: bolder;
+    font-style: italic;
+  }
+}
+
+.xd-prime-r {
+  font-family: "XDPrimeR", sans-serif;
+}
+
+.xd-prime-b {
+  font-family: "XDPrimeB", sans-serif;
+}
+
+.xd-prime-eb {
+  font-family: "XDPrimeEB", sans-serif;
 }
 
 .slick-dots li button::before {
@@ -20,3 +48,5 @@
   margin: 0 10px !important;
   width: 60px !important;
 }
+
+
