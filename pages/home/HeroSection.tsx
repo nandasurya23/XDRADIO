@@ -56,14 +56,13 @@ const HeroSection = () => {
                 )}
               >
                 <a
-                  href="https://wa.me/082146426737"
+                  href="http://c4.siar.us:8940/stream"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Streaming Radio 90.2 FM
                 </a>
               </button>
-              <audio src="http://c4.siar.us:8940/stream"></audio>
             </div>
           </div>
         </div>

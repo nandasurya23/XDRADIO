@@ -65,7 +65,10 @@ const Gallery = () => {
           <Slider {...settings}>
             {gallery.map((items) => {
               return (
-                <div key={items.id} className="flex items-center px-3">
+                <div
+                  key={items.id}
+                  className="flex items-center px-3 outline-none"
+                >
                   <Image
                     src={items.image}
                     alt=""
