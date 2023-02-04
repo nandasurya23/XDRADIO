@@ -1,7 +1,9 @@
+/* eslint-disable react/jsx-no-undef */
 /* eslint-disable @next/next/no-img-element */
 import React, { lazy, Suspense, useEffect, useState } from "react";
 const ReactPlayer = lazy(() => import("react-player"));
 import dynamic from "next/dynamic";
+import AudioPlayer from "react-audio-player";
 
 import clsx from "clsx";
 const HeroSection = () => {
@@ -78,6 +80,12 @@ const HeroSection = () => {
                   Streaming Radio 90.2 FM
                 </a>
               </button>
+              <AudioPlayer
+                src="http://c4.siar.us:8940/stream"
+                autoPlay
+                controls
+                style={{ display: "none" }}
+              />
             </div>
           </div>
         </div>
