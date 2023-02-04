@@ -46,14 +46,14 @@ const Program = () => {
   };
   return (
     <section className="bg-prime-1">
-      <div className="container px-3 mx-auto xd-prime-b pb-20">
-        <div className="text-3xl text-center font-semibold text-prime-2 space-y-3">
-          <h1>Meet Our Announcer On</h1>
-          <h1>PROGRAM XD RADIO YUDHA 90.2 FM</h1>
+      <div className="container px-3 mx-auto xd-prime-b pb-5 md:pb-20">
+        <div className="text-xl text-center pt-5 font-semibold space-y-3 md:text-3xl">
+          <h1 className="text-prime-2">ANNOUNCER</h1>
+          <h1 className="text-white">XD Radio Yudha</h1>
         </div>
       </div>
       <div className={clsx("container px-3 mx-auto")}>
-        <div className={clsx("pt-2 pb-10")}>
+        <div className={clsx("pt-2 pb-10 px-5 bg-prime-3/50 rounded-2xl")}>
           <Slider {...settings}>
             {annoucer.map((items) => {
               return (
@@ -62,7 +62,8 @@ const Program = () => {
                     src={items.image}
                     alt=""
                     className={clsx(
-                      "w-full object-contain object-center mx-auto hover:scale-105 duration-200 ease-in-out transition-transform"
+                      "w-60 object-contain object-center mx-auto",
+                      "md:w-full"
                     )}
                     width={800}
                     height={0}

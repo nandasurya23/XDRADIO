@@ -49,7 +49,8 @@ const EventSlider = () => {
   return (
     <div
       className={clsx(
-        "w-full bg-gradient-to-b from-dark to-prime-1 pt-32 pb-12"
+        "w-full bg-gradient-to-b from-dark to-prime-1 pt-20 pb-5",
+        "md:pt-32 md:pb-12"
       )}
     >
       <div className={clsx("container px-3 mx-auto")}>

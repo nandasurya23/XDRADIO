@@ -11,7 +11,12 @@ const HeroSection = () => {
     setPlaying(true);
   }, []);
   return (
-    <div className={clsx("w-full bg-prime-1 text-white pt-10 pb-20")}>
+    <div
+      className={clsx(
+        "w-full bg-prime-1 text-white pt-5 pb-5",
+        "md:pt-10 md:pb-20"
+      )}
+    >
       <div className={clsx("container mx-auto")}>
         <div
           className={clsx(
@@ -30,20 +35,30 @@ const HeroSection = () => {
               />
             </Suspense>
           </div>
-          <div className={clsx("flex flex-col w-11/12 mx-8")}>
-            <h1 className="text-2xl xd-prime-eb italic font-extrabold md:text-5xl tracking-wider">
+          <div
+            className={clsx(
+              "flex flex-col w-11/12 text-center mx-8",
+              "md:text-left"
+            )}
+          >
+            <h1
+              className={clsx(
+                "text-2xl xd-prime-eb text-prime-2 mt-5 italic font-extrabold tracking-wider",
+                "md:text-5xl md:mt-0"
+              )}
+            >
               XD RADIO YUDHA
             </h1>
-            <p className="text-justify text-lg xd-prime-b italic font-bold tracking-wide mt-3">
+            <p className="text-lg xd-prime-b italic font-bold tracking-wide mt-3">
               Your Extra Ordinary Music Station
             </p>
-            <p className="text-justify text-lg mt-8 xd-prime-r">
+            <p className="text-sm mt-8 xd-prime-r md:text-lg">
               Holaa XD People !! XD Radio dengan Station Call “Your Extra
               Ordinary Music Station” akan selalu menemani kamu dengan Playlist
               yang bakal bikin suasana Good Mood dan kamu akan selalu Merasa
               Bahwa HARI INI IS A GOOD DAY !!
             </p>
-            <p className="text-justify text-lg xd-prime-r">
+            <p className="text-sm mt-8 xd-prime-r md:text-lg">
               So What You Waiting For , Come Test Our Wave !!!!
             </p>
 

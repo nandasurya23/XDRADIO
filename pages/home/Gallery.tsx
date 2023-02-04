@@ -58,9 +58,10 @@ const Gallery = () => {
   return (
     <section className="bg-prime-1 xd-prime-b text-white pt-20 pb-20">
       <div className="container mx-auto">
-        <h1 className="text-center text-prime-2 text-3xl font-semibold ">
-          Gallery
-        </h1>
+        <div className="text-xl text-center pt-5 font-semibold space-y-3 md:text-3xl">
+          <h1 className="text-prime-2"> XD GALLERY</h1>
+          <h1 className="text-white">Expose Your Good Mood and Creativity</h1>
+        </div>
         <div className={clsx("pt-2 pb-10 mt-10")}>
           <Slider {...settings}>
             {gallery.map((items) => {
