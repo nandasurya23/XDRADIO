@@ -36,7 +36,7 @@ const announcer = () => {
                 <div className="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-prime-3 dark:bg-slate-900 p-4 rounded shadow dark:shadow-gray-700">
                   <a
                     href="#"
-                    className="hover:text-prime-2 text-xl transition duration-500 font-normal"
+                    className="hover:text-prime-2 text-sm md:text-xl transition duration-500 font-normal"
                   >
                     {items.instagram}
                   </a>
