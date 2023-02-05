@@ -67,7 +67,7 @@ const HeroSection = () => {
             <div className={clsx("flex justify-start items-center")}>
               <button
                 className={clsx(
-                  "mt-10 px-5 py-3 rounded-xl bg-gradient-to-br from-prime-2 to-prime-1 text-white w-full text-base tracking-wider shadow-xl xd-prime-b font-bold",
+                  "mt-10 px-5 py-3 rounded-xl bg-gradient-to-br from-prime-2 to-prime-3 text-white w-full text-base tracking-wider shadow-xl xd-prime-b font-bold",
                   "md:w-3/4 md:text-xl",
                   "hover:scale-105 ease-in-out transition-transform"
                 )}
