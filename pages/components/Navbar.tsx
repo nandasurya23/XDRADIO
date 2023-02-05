@@ -46,7 +46,7 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className={clsx("mx-5 hover:text-prime-2 cursor-pointer")}>
-              <Link href="/catalog">Program</Link>
+              <Link href="/program">Program</Link>
             </li>
             <li className={clsx("mx-5 hover:text-prime-2 cursor-pointer")}>
               <Link href="/announcer">Announcer</Link>
