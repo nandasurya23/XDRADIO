@@ -27,18 +27,18 @@ const Navbar = () => {
           />
         </div>
         <FiMenu
-          className={clsx("block h-6 w-6 cursor-pointer", "md:hidden")}
+          className={clsx(" h-6 w-6 cursor-pointer", "md:hidden")}
           color="white"
           onClick={() => setOpen(!open)}
         />
         <nav
           className={`${
-            open ? "block" : "hidden"
+            open ? "block w-full mt-5 md:hidden" : "hidden md:mt-0"
           } md:flex  md:items-center md:w-auto`}
         >
           <ul
             className={clsx(
-              "text-white xd-prime-b mt-5 space-y-3",
+              "text-white flex-wrap xd-prime-b mt-5 space-y-3",
               "md:space-y-0 md:mt-0 md:flex"
             )}
           >
@@ -52,13 +52,14 @@ const Navbar = () => {
               <Link href="/announcer">Announcer</Link>
             </li>
             <li className={clsx("mx-5 hover:text-prime-2 cursor-pointer")}>
-              <Link href="/contact">Gallery</Link>
+              <Link href="/gallery">Gallery</Link>
             </li>
             <li className={clsx("mx-5 hover:text-prime-2 cursor-pointer")}>
               <Link href="/contact">About US</Link>
             </li>
           </ul>
         </nav>
+
         <div className="hidden md:block">
           <a href="http://c4.siar.us:8940/stream">
             <FiRadio

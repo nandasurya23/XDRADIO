@@ -3,7 +3,6 @@
 import React, { lazy, Suspense, useEffect, useState } from "react";
 const ReactPlayer = lazy(() => import("react-player"));
 import dynamic from "next/dynamic";
-import AudioPlayer from "react-audio-player";
 
 import clsx from "clsx";
 const HeroSection = () => {
@@ -13,27 +12,6 @@ const HeroSection = () => {
     setPlaying(true);
   }, []);
 
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    fetch("http://c4.siar.us:8940/stream")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Failed to load resource");
-        }
-        return response.json();
-      })
-      .then((data) => {
-        setAudio(data.streamUrl);
-      })
-      .catch((err) => {
-        setError(err.message);
-      });
-  }, []);
-
-  if (error) {
-    return <div>Error: {error}</div>;
-  }
   return (
     <div
       className={clsx(
@@ -102,12 +80,6 @@ const HeroSection = () => {
                   Streaming Radio 90.2 FM
                 </a>
               </button>
-              <AudioPlayer
-                src="http://c4.siar.us:8940/stream"
-                autoPlay
-                controls
-                style={{ display: "none" }}
-              />
             </div>
           </div>
         </div>
@@ -118,6 +90,3 @@ const HeroSection = () => {
 
 // export default HeroSection;
 export default dynamic(() => Promise.resolve(HeroSection), { ssr: false });
-function setAudio(streamUrl: any) {
-  throw new Error("Function not implemented.");
-}
