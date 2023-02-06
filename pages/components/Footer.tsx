@@ -7,7 +7,6 @@ import { MdEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import clsx from "clsx";
 import Link from "next/link";
-import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -21,12 +20,10 @@ const Footer = () => {
             )}
           >
             <div className={clsx("flex flex-col justify-center", "md:w-full")}>
-              <Image
+              <img
                 src="https://res.cloudinary.com/df82hir2r/image/upload/v1675135466/xdradio/18_utaonl.png"
                 alt=""
                 className={clsx("w-20 mx-auto", "md:mx-20")}
-                width={800}
-                height={0}
               />
               <div
                 className={clsx(
