@@ -13,7 +13,7 @@ const about = () => {
     >
       <div className="container px-3 mx-auto">
         <div className="flex flex-wrap justify-between items-center">
-          <div className="flex flex-col justify-between w-full items-center px-5 py-5 rounded-2xl bg-prime-3 lg:flex-row lg:self-start lg:w-auto lg:mt-0">
+          <div className="flex flex-col justify-between w-full items-center rounded-2xl bg-prime-3 lg:flex-row lg:self-start lg:w-auto lg:mt-0">
             {/* PROFILE RADIO */}
             <div className="px-5 py-5 bg-prime-3  w-full rounded-2xl mt-5 md:self-start md:w-auto md:mt-0">
               <h1 className="text-xl xd-prime-b text-prime-2 font-semibold md:text-3xl">
