@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import { FiRadio } from "react-icons/fi";
+import Image from "next/image";
 
 /* eslint-disable @next/next/no-img-element */
 const Navbar = () => {
@@ -20,10 +21,12 @@ const Navbar = () => {
         )}
       >
         <div className={clsx("text-white text-xl font-bold flex items-center")}>
-          <img
+          <Image
             src="https://res.cloudinary.com/df82hir2r/image/upload/v1675135466/xdradio/18_utaonl.png"
             alt=""
             className={clsx("w-10 md:w-20")}
+            width={800}
+            height={0}
           />
         </div>
         <FiMenu

@@ -1,6 +1,8 @@
+/* eslint-disable react/jsx-no-undef */
 /* eslint-disable @next/next/no-img-element */
 import { clsx } from "clsx";
 import React from "react";
+import Image from "next/image";
 
 const about = () => {
   return (
@@ -108,10 +110,12 @@ const about = () => {
             <h1 className="text-xl xd-prime-b text-prime-2 font-semibold md:text-3xl">
               Rate <span className="text-white">Card</span>
             </h1>
-            <img
-              src="https://res.cloudinary.com/df82hir2r/image/upload/v1675179931/xdradio/fringer-cat-hddmXlPaFGo-unsplash_n97qfy.jpg"
+            <Image
+              src="https://res.cloudinary.com/df82hir2r/image/upload/v1675678774/xdradio/programs/RATE_CARD_tofqmp.jpg"
               alt=""
-              className="w-80 mx-auto object-cover  mt-3 rounded"
+              className=" w-full lg:w-96 mx-auto object-cover  mt-3 rounded"
+              width={800}
+              height={0}
             />
             <button className="bg-gradient-to-br from-prime-2 to-prime-1 mt-3 px-3 py-1 w-full tracking-wider xd-prime-b rounded-2xl md:w-1/2">
               Download

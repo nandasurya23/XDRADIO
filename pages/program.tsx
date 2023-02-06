@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { clsx } from "clsx";
 import React from "react";
+import Image from "next/image";
 
 const program = () => {
   return (
@@ -17,11 +18,13 @@ const program = () => {
         </div>
         <div className="grid grid-cols-1 gap-4">
           <div className="flex items-center justify-between ">
-            <div className="bg-prime-3 flex flex-col items-center px-3 py-3 rounded-xl mt-5 md:flex-row">
-              <img
-                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675179931/xdradio/fringer-cat-hddmXlPaFGo-unsplash_n97qfy.jpg"
+            <div className="bg-prime-3 flex flex-col items-center px-3 py-3 rounded-xl mt-5 lg:flex-row">
+              <Image
+                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675678521/xdradio/programs/p1_mwns2s.jpg"
                 alt=""
-                className="w-96 mx-auto object-cover rounded mr-5"
+                className=" w-full lg:w-96 mx-auto object-cover rounded mr-5"
+                width={800}
+                height={0}
               />
               <div className="px-3 py-3 self-start space-y-4">
                 <h3 className="xd-prime-b font-bold text-xl md:text-3xl text-prime-2">
@@ -43,11 +46,13 @@ const program = () => {
             </div>
           </div>
           <div className="flex items-center justify-between ">
-            <div className="bg-prime-3 flex flex-col items-center px-3 py-3 rounded-xl mt-5 md:flex-row">
-              <img
-                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675179931/xdradio/fringer-cat-hddmXlPaFGo-unsplash_n97qfy.jpg"
+            <div className="bg-prime-3 flex flex-col items-center px-3 py-3 rounded-xl mt-5 lg:flex-row">
+              <Image
+                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675678499/xdradio/programs/p7_tk8zto.jpg"
                 alt=""
-                className="w-96 mx-auto object-cover rounded mr-5"
+                className=" w-full lg:w-96 mx-auto object-cover rounded mr-5"
+                width={800}
+                height={0}
               />
               <div className="px-3 py-3 self-start space-y-4">
                 <h3 className="xd-prime-b font-bold text-xl md:text-3xl text-prime-2">
@@ -68,11 +73,13 @@ const program = () => {
             </div>
           </div>
           <div className="flex items-center justify-between ">
-            <div className="bg-prime-3 flex flex-col items-center px-3 py-3 rounded-xl mt-5 md:flex-row">
-              <img
-                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675179931/xdradio/fringer-cat-hddmXlPaFGo-unsplash_n97qfy.jpg"
+            <div className="bg-prime-3 flex flex-col items-center px-3 py-3 rounded-xl mt-5 lg:flex-row">
+              <Image
+                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675678738/xdradio/programs/p2_jtgxpa.jpg"
                 alt=""
-                className="w-96 mx-auto object-cover rounded mr-5"
+                className=" w-full lg:w-96 mx-auto object-cover rounded mr-5"
+                width={800}
+                height={0}
               />
               <div className="px-3 py-3 self-start space-y-4">
                 <h3 className="xd-prime-b font-bold text-xl md:text-3xl text-prime-2">
@@ -92,11 +99,13 @@ const program = () => {
             </div>
           </div>
           <div className="flex items-center justify-between ">
-            <div className="bg-prime-3 flex flex-col items-center px-3 py-3 rounded-xl mt-5 md:flex-row">
-              <img
-                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675179931/xdradio/fringer-cat-hddmXlPaFGo-unsplash_n97qfy.jpg"
+            <div className="bg-prime-3 flex flex-col items-center px-3 py-3 rounded-xl mt-5 lg:flex-row">
+              <Image
+                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675678740/xdradio/programs/p3_wnin3g.jpg"
                 alt=""
-                className="w-96 mx-auto object-cover rounded mr-5"
+                className=" w-full lg:w-96 mx-auto object-cover rounded mr-5"
+                width={800}
+                height={0}
               />
               <div className="px-3 py-3 self-start space-y-4">
                 <h3 className="xd-prime-b font-bold text-xl md:text-3xl text-prime-2">
@@ -121,11 +130,13 @@ const program = () => {
             </div>
           </div>
           <div className="flex items-center justify-between ">
-            <div className="bg-prime-3 flex flex-col items-center px-3 py-3 rounded-xl mt-5 md:flex-row">
-              <img
-                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675179931/xdradio/fringer-cat-hddmXlPaFGo-unsplash_n97qfy.jpg"
+            <div className="bg-prime-3 flex flex-col items-center px-3 py-3 rounded-xl mt-5 lg:flex-row">
+              <Image
+                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675678741/xdradio/programs/p5_ovvy2q.jpg"
                 alt=""
-                className="w-96 mx-auto object-cover rounded mr-5"
+                className=" w-full lg:w-96 mx-auto object-cover rounded mr-5"
+                width={800}
+                height={0}
               />
               <div className="px-3 py-3 self-start space-y-4">
                 <h3 className="xd-prime-b font-bold text-xl md:text-3xl text-prime-2">
