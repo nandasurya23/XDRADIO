@@ -1,0 +1,17 @@
+          {/* RATE CARD */}
+          <div className="px-5 py-5 bg-prime-3  w-full rounded-2xl mt-10  md:self-start md:w-auto lg:mt-0">
+            <h1 className="text-xl xd-prime-b text-prime-2 font-semibold md:text-3xl">
+              Rate <span className="text-white">Card</span>
+            </h1>
+            <Image
+              src="https://res.cloudinary.com/df82hir2r/image/upload/v1675678774/xdradio/programs/RATE_CARD_tofqmp.jpg"
+              alt=""
+              className=" w-full lg:w-96 mx-auto object-cover  mt-3 rounded"
+              width={800}
+              height={0}
+            />
+            <button className="bg-gradient-to-br from-prime-2 to-prime-1 mt-3 px-3 py-1 w-full tracking-wider xd-prime-b rounded-2xl md:w-1/2">
+              Download
+            </button>
+
+          </div>

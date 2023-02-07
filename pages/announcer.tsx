@@ -10,7 +10,7 @@ const announcer = () => {
   return (
     <section
       className={clsx(
-        "w-full bg-gradient-to-b from-dark to-prime-1 pt-32 pb-12 text-white"
+        "w-full bg-gradient-to-b from-prime-1 to-prime-4 pt-32 pb-12 text-white"
       )}
     >
       <div className="container px-3 mx-auto">

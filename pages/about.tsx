@@ -8,19 +8,19 @@ const about = () => {
   return (
     <section
       className={clsx(
-        "w-full bg-gradient-to-b from-dark to-prime-1 pt-32 pb-12 text-white"
+        "w-full bg-gradient-to-b from-prime-1 to-prime-4 pt-32 pb-12 text-white"
       )}
     >
       <div className="container px-3 mx-auto">
-        <div className="flex flex-wrap justify-between items-center">
-          <div className="flex flex-col justify-between w-full items-center rounded-2xl bg-prime-3 lg:flex-row lg:self-start lg:w-auto lg:mt-0">
+        <div className="flex flex-wrap  justify-between items-center">
+          <div className="flex flex-col  w-full justify-between items-center  lg:flex-row">
             {/* PROFILE RADIO */}
-            <div className="px-5 py-5 bg-prime-3  w-full rounded-2xl mt-5 md:self-start md:w-auto md:mt-0">
+            <div className="px-5 py-5 bg-prime-3 w-full rounded-2xl mx-0 lg:mx-5 mt-5 md:self-start  md:mt-0">
               <h1 className="text-xl xd-prime-b text-prime-2 font-semibold md:text-3xl">
                 Profile <span className="text-white">Radio</span>
               </h1>
               <div className="xd-prime-r mt-3">
-                <div className="flex flex-col ">
+                <div className="flex flex-col">
                   <p className="text-lg text-prime-2">Badan Hukum</p>
                   <p>PT . Radio Suara Yudha</p>
                 </div>
@@ -59,115 +59,73 @@ const about = () => {
                 <div className="flex flex-col mt-3">
                   <p className="text-lg text-prime-2">Area Jangkauan</p>
                   <p>
-                    Denpasar, Badung, Gianyar,
-                    <br />
-                    Bangli, Klungkung, Karangasem,
-                    <br />
+                    Denpasar, Badung, Gianyar, Bangli, Klungkung, Karangasem,
                     Tabanan
                   </p>
                 </div>
               </div>
             </div>
-            {/* Komposisi Music */}
-            <div className="px-5 py-5 bg-prime-3  w-full rounded-2xl mt-5 md:self-start md:w-auto md:mt-0">
-              <h1 className="text-xl xd-prime-b text-prime-2 font-semibold md:text-3xl">
-                Kompesisi <span className="text-white">Musik</span>
-              </h1>
-              <div className="xd-prime-r mt-3">
-                <div className="flex flex-col ">
-                  <p className="text-lg text-prime-2">Lagu Mancanegara</p>
-                  <p>
-                    45 <span>%</span>
-                  </p>
-                </div>
-                <div className="flex flex-col mt-3">
-                  <p className="text-lg text-prime-2">Lagu Indonesia</p>
-                  <p>
-                    40 <span>%</span>
-                  </p>
-                </div>
-                <div className="flex flex-col mt-3">
-                  <p className="text-lg text-prime-2">Lagu Korea</p>
-                  <p>
-                    15 <span>%</span>
-                  </p>
-                </div>
-                <div className="flex flex-col mt-3">
-                  <p className="text-lg text-prime-2">On Air Aura</p>
-                  <p>Cherfull & Fun</p>
-                </div>
-                <div className="flex flex-col mt-3">
-                  <p className="text-lg text-prime-2">Operation Time</p>
-                  <p>5.30 am - 00.00 pm</p>
-                </div>
-                <div className="flex flex-col mt-3">
-                  <p className="text-lg text-prime-2">Prime Time</p>
-                  <p>15.00 pm - 20.00 pm</p>
+            <div className="grid grid-cols-1 w-full gap-5 mt-5 lg:mt-0">
+              {/* Komposisi Music */}
+              <div className="px-5 py-5 bg-prime-3 w-full rounded-2xl">
+                <h1 className="text-xl xd-prime-b text-prime-2 font-semibold md:text-3xl">
+                  Kompesisi <span className="text-white">Musik</span>
+                </h1>
+                <div className="xd-prime-r mt-3">
+                  <div className="flex flex-col">
+                    <p className="text-lg text-prime-2">Lagu Mancanegara</p>
+                    <p>
+                      45 <span>%</span>
+                    </p>
+                  </div>
+                  <div className="flex flex-col mt-3">
+                    <p className="text-lg text-prime-2">Lagu Indonesia</p>
+                    <p>
+                      40 <span>%</span>
+                    </p>
+                  </div>
+                  <div className="flex flex-col mt-3">
+                    <p className="text-lg text-prime-2">Lagu Korea</p>
+                    <p>
+                      15 <span>%</span>
+                    </p>
+                  </div>
+                  <div className="flex flex-col mt-3">
+                    <p className="text-lg text-prime-2">Operation Time</p>
+                    <p>5.30 am - 00.00 pm</p>
+                  </div>
+                  <div className="flex flex-col mt-3">
+                    <p className="text-lg text-prime-2">Prime Time</p>
+                    <p>15.00 pm - 20.00 pm</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-
-          {/* RATE CARD */}
-          <div className="px-5 py-5 bg-prime-3  w-full rounded-2xl mt-10  md:self-start md:w-auto lg:mt-0">
-            <h1 className="text-xl xd-prime-b text-prime-2 font-semibold md:text-3xl">
-              Rate <span className="text-white">Card</span>
-            </h1>
-            <Image
-              src="https://res.cloudinary.com/df82hir2r/image/upload/v1675678774/xdradio/programs/RATE_CARD_tofqmp.jpg"
-              alt=""
-              className=" w-full lg:w-96 mx-auto object-cover  mt-3 rounded"
-              width={800}
-              height={0}
-            />
-            <button className="bg-gradient-to-br from-prime-2 to-prime-1 mt-3 px-3 py-1 w-full tracking-wider xd-prime-b rounded-2xl md:w-1/2">
-              Download
-            </button>
-            <h1 className="text-xl xd-prime-b text-prime-2 font-semibold md:text-3xl mt-10">
-              Pendengar <span className="text-white">Kami</span>
-            </h1>
-            <div className="xd-prime-r mt-3">
-              <div className="flex flex-col ">
-                <p className="text-lg text-prime-2">Usia</p>
-                <p>
-                  15 - 30 (Primary Target) <br />
-                  31 - 50 (Secondary Target)
-                </p>
-              </div>
-              <div className="flex flex-col mt-3">
-                <p className="text-lg text-prime-2">Character</p>
-                <p>Creative, Fun, Cheerfull</p>
-              </div>
-              <div className="flex flex-col mt-3">
-                <p className="text-lg text-prime-2">Status</p>
-                <p>
-                  Student, College, Entrepreneur, <br />
-                  Labor
-                </p>
-              </div>
-              <div className="flex flex-col mt-3">
-                <p className="text-lg text-prime-2">Pelajar</p>
-                <p>
-                  20 <span>%</span>
-                </p>
-              </div>
-              <div className="flex flex-col mt-3">
-                <p className="text-lg text-prime-2">Mahasiswa</p>
-                <p>
-                  50 <span>%</span>
-                </p>
-              </div>
-              <div className="flex flex-col mt-3">
-                <p className="text-lg text-prime-2">Karyawan</p>
-                <p>
-                  20 <span>%</span>
-                </p>
-              </div>
-              <div className="flex flex-col mt-3">
-                <p className="text-lg text-prime-2">Lain - Lain</p>
-                <p>
-                  10 <span>%</span>
-                </p>
+              {/* Pendengar kami */}
+              <div className="px-5 py-5 bg-prime-3 w-full rounded-2xl mt-5 md:mt-0">
+                <h1 className="text-xl xd-prime-b text-prime-2 font-semibold md:text-3xl">
+                  Pendengar <span className="text-white">Kami</span>
+                </h1>
+                <div className="xd-prime-r mt-3">
+                  <div className="flex flex-col ">
+                    <p className="text-lg text-prime-2">Usia</p>
+                    <p>15 - 30 (Primary Target) 31 - 50 (Secondary Target)</p>
+                  </div>
+                  <div className="flex flex-col mt-3">
+                    <p className="text-lg text-prime-2">Character</p>
+                    <p>Creative, Fun, Cheerfull</p>
+                  </div>
+                  <div className="flex flex-col mt-3">
+                    <p className="text-lg text-prime-2">Status</p>
+                    <p>
+                      Student (20 %), College (40 %), Entrepreneur (20 %), Labor
+                      (20 %)
+                    </p>
+                  </div>
+                  <div className="flex flex-col mt-3">
+                    <p className="text-lg text-prime-2">Sex</p>
+                    <p>Unisex</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

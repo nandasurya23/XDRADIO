@@ -68,6 +68,9 @@ const Footer = () => {
                 <li className={clsx("my-3 hover:text-prime-2 cursor-pointer")}>
                   <Link href="/about">About US</Link>
                 </li>
+                <li className={clsx("my-3 hover:text-prime-2 cursor-pointer")}>
+                  <Link href="/about">XD Rate</Link>
+                </li>
               </ul>
             </div>
             <div
@@ -125,7 +128,7 @@ const Footer = () => {
       </footer>
       <div className={clsx("flex items-center justify-center my-3")}>
         <BiCopyright size={30} />
-        <p className={clsx(" text-sm md:text-lg font-semibold ml-2 ")}>
+        <p className={clsx(" text-sm md:text-base font-semibold ml-2 ")}>
           @2022 XD RADIO YUDHA BALI 90.2 FM Your Extra Ordinary Music Station
         </p>
       </div>

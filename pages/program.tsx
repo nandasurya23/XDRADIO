@@ -7,15 +7,13 @@ const program = () => {
   return (
     <section
       className={clsx(
-        "w-full bg-gradient-to-b from-dark to-prime-1 pt-32 pb-12 text-white"
+        "w-full bg-gradient-to-b from-prime-1 to-prime-4 pt-32 pb-12 text-white"
       )}
     >
       <div className="container px-3 mx-auto">
-        <div className="xd-prime-b bg-prime-3 px-3 py-3 text-white w-7/12 md:w-3/12 rounded-md">
-          <h1 className="text-prime-2 font-bold text-xl md:text-3xl">
-            XD Radio <span className="text-white">Program</span>
-          </h1>
-        </div>
+        <h1 className="text-prime-2 xd-prime-b font-bold text-xl md:text-3xl">
+          XD Radio <span className="text-white">Program</span>
+        </h1>
         <div className="grid grid-cols-1 gap-4">
           <div className="flex items-center justify-between ">
             <div className="bg-prime-3 flex flex-col items-center px-3 py-3 rounded-xl mt-5 lg:flex-row">
