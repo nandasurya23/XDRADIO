@@ -69,7 +69,7 @@ const Footer = () => {
                   <Link href="/about">About US</Link>
                 </li>
                 <li className={clsx("my-3 hover:text-prime-2 cursor-pointer")}>
-                  <Link href="/about">XD Rate</Link>
+                  <Link href="/xd_rate">XD Rate</Link>
                 </li>
               </ul>
             </div>
