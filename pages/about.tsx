@@ -59,8 +59,8 @@ const about = () => {
                 <div className="flex flex-col mt-3">
                   <p className="text-lg text-prime-2">Area Jangkauan</p>
                   <p>
-                    Denpasar, Badung, Gianyar, Bangli, Klungkung, Karangasem,
-                    Tabanan
+                    Denpasar, Badung, Gianyar <br /> Bangli, Klungkung, <br />
+                    Karangasem, Tabanan
                   </p>
                 </div>
               </div>
