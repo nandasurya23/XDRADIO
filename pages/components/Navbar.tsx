@@ -64,7 +64,7 @@ const Navbar = () => {
         </nav>
 
         <div className="hidden md:block">
-          <a href="http://c4.siar.us:8940/stream">
+          <a href="https://c4.siar.us:8940/stream">
             <FiRadio
               color="white"
               size={40}

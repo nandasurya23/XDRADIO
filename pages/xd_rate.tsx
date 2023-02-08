@@ -153,8 +153,8 @@ const xd_rate = () => {
         </div>
         {/* TERMS CONDITION */}
         <div className="bg-prime-3 mt-5 px-5 py-3 rounded-2xl">
-          <h3>Term & Conditions :</h3>
-          <ul className="list-inside mt-3 list-disc">
+          <h3 className="xd-prime-b font-bold">Term & Conditions :</h3>
+          <ul className="list-inside mt-3 list-disc xd-prime-r">
             <li>Harga diatas belum termasuk PPN 11%</li>
             <li>
               Setiap order pemasangan iklan harap disampaikan secara tertulis

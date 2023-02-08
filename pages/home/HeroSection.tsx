@@ -3,6 +3,7 @@
 import React, { lazy, Suspense, useEffect, useState } from "react";
 const ReactPlayer = lazy(() => import("react-player"));
 import dynamic from "next/dynamic";
+import ReactAudioPlayer from "react-audio-player";
 
 import clsx from "clsx";
 const HeroSection = () => {
@@ -34,6 +35,13 @@ const HeroSection = () => {
                 loop
                 width="100%"
                 height="100%"
+                config={{
+                  youtube: {
+                    playerVars: {
+                      showinfo: 0,
+                    },
+                  },
+                }}
               />
             </Suspense>
           </div>
@@ -54,13 +62,16 @@ const HeroSection = () => {
             <p className="text-lg xd-prime-b italic font-bold tracking-wide mt-3">
               Your Extra Ordinary Music Station
             </p>
-            <p className="text-sm mt-8 xd-prime-r md:text-lg">
-              Holaa XD People !! XD Radio dengan Station Call “Your Extra
-              Ordinary Music Station” akan selalu menemani kamu dengan Playlist
-              yang bakal bikin suasana Good Mood dan kamu akan selalu Merasa
-              Bahwa HARI INI IS A GOOD DAY !!
+            <p className="text-sm mt-8 xd-prime-r md:text-base">
+              XD Radio dengan Station Call “Your Extra Ordinary Music Station”
+              akan selalu mmenemani kamu dengan Playlist yang bakal bikin
+              suasana Good Mood dan kamu akan selalu Merasa Bahwa HARI INI IS A
+              GOOD DAY !! Bertema-kan Digital,Kreatif,N Lifestyle XD Radio Juga
+              akan menyuguhkan kamu Informasi - Informasi uptodate yang nantinya
+              Informasi tersebut akan membantu kamu dan Relate dengan Kehidupan
+              Kamu
             </p>
-            <p className="text-sm mt-8 xd-prime-r md:text-lg">
+            <p className="text-sm mt-8 xd-prime-r md:text-base">
               So What You Waiting For , Come Test Our Wave !!!!
             </p>
 
@@ -73,13 +84,18 @@ const HeroSection = () => {
                 )}
               >
                 <a
-                  href="http://c4.siar.us:8940/stream"
+                  href="https://c4.siar.us:8940/stream"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Streaming Radio 90.2 FM
                 </a>
               </button>
+              <ReactAudioPlayer
+                src="https://c4.siar.us:8940/stream"
+                autoPlay
+                controls={false}
+              />
             </div>
           </div>
         </div>

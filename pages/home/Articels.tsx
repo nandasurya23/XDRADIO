@@ -45,9 +45,16 @@ const Articels = () => {
                     {item.title}
                   </span>
                   <p className="text-xs md:text-sm font-normal">{item.slug}</p>
-                  <button className="underline text-sm md:text-lg cursor-pointer">
-                    Read More
-                  </button>
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    className="text-center"
+                    rel="noreferrer"
+                  >
+                    <button className="underline text-sm md:text-lg cursor-pointer">
+                      Read More
+                    </button>
+                  </a>
                 </div>
               </div>
             );
