@@ -27,7 +27,7 @@ const program = () => {
               <div className="px-3 py-3 self-start space-y-4">
                 <h3 className="xd-prime-b font-bold text-xl md:text-3xl text-prime-2">
                   Sunset N Chill <br />
-                  <span className="text-white">Monday - Friday 05-06pm</span>
+                  <span className="text-white">Monday - Friday 5 - 6 pm</span>
                 </h3>
                 <p className="text-sm md:text-base xd-prime-r leading-normal">
                   Sunset N Chill ialah Program yang nemenin waktu XD People yang
@@ -56,7 +56,7 @@ const program = () => {
                 <h3 className="xd-prime-b font-bold text-xl md:text-3xl text-prime-2">
                   SASENGEMPAL <br />
                   “Sareng - Sareng Ngalih Timpal” <br />
-                  <span className="text-white">Thursday 3pm-4pm</span>
+                  <span className="text-white">Thursday 3 - 4 pm</span>
                 </h3>
                 <p className="text-sm md:text-base xd-prime-r leading-normal">
                   Program ini menjawab para semeton xd people di bali sebagai
@@ -83,7 +83,7 @@ const program = () => {
                 <h3 className="xd-prime-b font-bold text-xl md:text-3xl text-prime-2">
                   Extraordinary Morning
                   <br />
-                  <span className="text-white">Monday - Friday 10am-11am</span>
+                  <span className="text-white">Monday - Friday 10 - 11 am</span>
                 </h3>
                 <p className="text-sm md:text-base xd-prime-r leading-normal">
                   Extraordinary Morning ialah Program yang akan menemani XD
@@ -109,9 +109,7 @@ const program = () => {
                 <h3 className="xd-prime-b font-bold text-xl md:text-3xl text-prime-2">
                   HANTU <br />
                   ‘Hapaan Tuh’ <br />
-                  <span className="text-white">
-                    Monday - Friday 8 pm - 9 pm
-                  </span>
+                  <span className="text-white">Monday - Friday 8 - 9 pm</span>
                 </h3>
                 <p className="text-sm md:text-base xd-prime-r leading-normal">
                   Program Hantu ialah Program spesial yang khusus disuguhkan
@@ -140,7 +138,7 @@ const program = () => {
                 <h3 className="xd-prime-b font-bold text-xl md:text-3xl text-prime-2">
                   Startup Your Weekend
                   <br />
-                  <span className="text-white">Saturday 9am - 12 am</span>
+                  <span className="text-white">Saturday 9 - 12 am</span>
                 </h3>
                 <p className="text-sm md:text-base xd-prime-r leading-normal">
                   Program yang khusus untuk nemenin waktu liburan atau kerja xd
