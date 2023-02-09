@@ -27,7 +27,7 @@ const program = () => {
               <div className="px-3 py-3 self-start space-y-4">
                 <h3 className="xd-prime-b font-bold text-xl md:text-3xl text-prime-2">
                   Sunset N Chill <br />
-                  <span className="text-white">Monday - Friday 05pm-06pm</span>
+                  <span className="text-white">Monday - Friday 05-06pm</span>
                 </h3>
                 <p className="text-sm md:text-base xd-prime-r leading-normal">
                   Sunset N Chill ialah Program yang nemenin waktu XD People yang
@@ -73,7 +73,7 @@ const program = () => {
           <div className="flex items-center justify-between ">
             <div className="bg-prime-3 flex flex-col items-center px-3 py-3 rounded-xl mt-5 lg:flex-row">
               <Image
-                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675678738/xdradio/programs/p2_jtgxpa.jpg"
+                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675922526/xdradio/programs/2_new_1_pghrxf.jpg"
                 alt=""
                 className=" w-full lg:w-96 mx-auto object-cover rounded mr-5"
                 width={800}
@@ -81,12 +81,12 @@ const program = () => {
               />
               <div className="px-3 py-3 self-start space-y-4">
                 <h3 className="xd-prime-b font-bold text-xl md:text-3xl text-prime-2">
-                  ExtraOrdinary Morning
+                  Extraordinary Morning
                   <br />
                   <span className="text-white">Monday - Friday 10am-11am</span>
                 </h3>
                 <p className="text-sm md:text-base xd-prime-r leading-normal">
-                  ExtraOrdinary Morning ialah Program yang akan menemani XD
+                  Extraordinary Morning ialah Program yang akan menemani XD
                   People semua dalam memulai aktifitas kalian , dimulai dengan
                   konten kreatif nan menarik, info cuaca terkini, informasi
                   uptodate seputar digital, kreatif, dan lifestyle juga Playlist
@@ -108,7 +108,7 @@ const program = () => {
               <div className="px-3 py-3 self-start space-y-4">
                 <h3 className="xd-prime-b font-bold text-xl md:text-3xl text-prime-2">
                   HANTU <br />
-                  ‘hapaan Tuh’ <br />
+                  ‘Hapaan Tuh’ <br />
                   <span className="text-white">
                     Monday - Friday 8 pm - 9 pm
                   </span>
@@ -130,7 +130,7 @@ const program = () => {
           <div className="flex items-center justify-between ">
             <div className="bg-prime-3 flex flex-col items-center px-3 py-3 rounded-xl mt-5 lg:flex-row">
               <Image
-                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675678741/xdradio/programs/p5_ovvy2q.jpg"
+                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675922524/xdradio/programs/5new_1_codkbg.jpg"
                 alt=""
                 className=" w-full lg:w-96 mx-auto object-cover rounded mr-5"
                 width={800}

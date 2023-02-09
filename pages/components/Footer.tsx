@@ -81,7 +81,7 @@ const Footer = () => {
             >
               <h1 className={clsx("text-xl font-bold")}>Find US</h1>
               <a
-                href="https://www.facebook.com/profile.php?id=100087486210259"
+                href="https://www.facebook.com/profile.php?id=100090402601076"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -102,18 +102,14 @@ const Footer = () => {
                 </div>
               </a>
 
-              <a
-                href="https://www.tiktok.com/@_dewata_agung"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="#" target="_blank" rel="noreferrer">
                 <div className={clsx("flex items-center justify-start mt-5")}>
                   <SiTwitter size={20} className={clsx("mr-2")} />
                   <p className={clsx("text-lg")}>XDRADIOBALI</p>
                 </div>
               </a>
               <a
-                href="https://www.tiktok.com/@_dewata_agung"
+                href="mailto:xdradio@primakara.ac.id"
                 target="_blank"
                 rel="noreferrer"
               >
