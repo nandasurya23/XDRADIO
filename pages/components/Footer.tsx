@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { RiFacebookCircleLine } from "react-icons/ri";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { SiTwitter } from "react-icons/si";
 import { BiCopyright } from "react-icons/bi";
 import { MdEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
@@ -98,13 +97,6 @@ const Footer = () => {
               >
                 <div className={clsx("flex items-center justify-start mt-5")}>
                   <AiOutlineInstagram size={20} className="mr-2" />
-                  <p className={clsx("text-lg")}>XDRADIOBALI</p>
-                </div>
-              </a>
-
-              <a href="#" target="_blank" rel="noreferrer">
-                <div className={clsx("flex items-center justify-start mt-5")}>
-                  <SiTwitter size={20} className={clsx("mr-2")} />
                   <p className={clsx("text-lg")}>XDRADIOBALI</p>
                 </div>
               </a>

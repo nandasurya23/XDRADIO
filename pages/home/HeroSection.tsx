@@ -66,10 +66,7 @@ const HeroSection = () => {
               XD Radio dengan Station Call “Your Extra Ordinary Music Station”
               akan selalu mmenemani kamu dengan Playlist yang bakal bikin
               suasana Good Mood dan kamu akan selalu Merasa Bahwa HARI INI IS A
-              GOOD DAY !! Bertema-kan Digital,Kreatif,N Lifestyle XD Radio Juga
-              akan menyuguhkan kamu Informasi - Informasi uptodate yang nantinya
-              Informasi tersebut akan membantu kamu dan Relate dengan Kehidupan
-              Kamu
+              GOOD DAY !!
             </p>
             <p className="text-sm mt-8 xd-prime-r md:text-base">
               So What You Waiting For , Come Test Our Wave !!!!
