@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "main" : "_app.js",
     "start": "“NODE_ENV=production node server.js”",
     "lint": "next lint",
     "json": "json-server --watch db.json --port 5000"

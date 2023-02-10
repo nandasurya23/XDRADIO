@@ -27,18 +27,19 @@ const HeroSection = () => {
             "md:flex md:flex-row"
           )}
         >
-          <div className={clsx(" w-full h-96 rounded-md")}>
+          <div className={clsx(" w-full rounded-md")}>
             <Suspense fallback={<div>Loading...</div>}>
               <ReactPlayer
-                url="https://youtu.be/mnT33cOpDd8"
+                url="https://fb.watch/iyQiwHBB2b/"
                 playing={playing}
                 loop
                 width="100%"
                 height="100%"
                 config={{
-                  youtube: {
-                    playerVars: {
-                      showinfo: 0,
+                  file: {
+                    attributes: {
+                      autoPlay: true,
+                      loop: true,
                     },
                   },
                 }}
