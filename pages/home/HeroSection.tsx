@@ -48,8 +48,8 @@ const HeroSection = () => {
           </div>
           <div
             className={clsx(
-              "flex flex-col w-11/12 text-center mx-8",
-              "md:text-left"
+              "flex flex-col w-11/12 text-center mx-auto self-stretch",
+              "md:text-left md:self-start md:mx-8"
             )}
           >
             <h1
