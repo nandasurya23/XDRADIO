@@ -140,7 +140,7 @@ const xd_rate = () => {
               Rate <span className="text-white">Card</span>
             </h1>
             <Image
-              src="https://res.cloudinary.com/df82hir2r/image/upload/v1675922253/xdradio/programs/RATE_CARD_sdfow9.jpg"
+              src="https://res.cloudinary.com/df82hir2r/image/upload/v1676280307/xdradio/programs/RATE_CARD_052002_qidzus.jpg"
               alt=""
               className=" w-full  mx-auto object-cover  mt-3 rounded"
               width={800}
