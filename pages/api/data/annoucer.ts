@@ -34,4 +34,9 @@ export const annoucer = [
     image:
       "https://res.cloudinary.com/df82hir2r/image/upload/v1675240577/xdradio/g_sy9qu2.png",
   },
+  {
+    id: 8,
+    image:
+      "https://res.cloudinary.com/df82hir2r/image/upload/v1676516384/xdradio/H_ehburl.png",
+  },
 ];

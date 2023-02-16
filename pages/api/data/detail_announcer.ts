@@ -55,4 +55,12 @@ export const detail_annoucer = [
     date: "Denpasar, 4 Maret 2003",
     genre: "Indie, Pop ",
   },
+  {
+    id: 8,
+    image:
+      "https://res.cloudinary.com/df82hir2r/image/upload/v1676516225/xdradio/announcer/h_o5g0rx.jpg",
+    instagram: "@captaintegar",
+    date: "Denpasar, 25 Agustus 1992",
+    genre: "Pop & Rock ",
+  },
 ];
