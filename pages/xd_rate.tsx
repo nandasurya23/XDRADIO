@@ -152,9 +152,15 @@ const xd_rate = () => {
               width={800}
               height={0}
             />
-            <button className="bg-gradient-to-br from-prime-2 to-prime-1 mt-3 px-3 py-1 w-full tracking-wider xd-prime-b rounded-2xl md:w-1/2">
-              Download
-            </button>
+            <a
+              href="https://drive.google.com/drive/folders/1WEMHbhXZJr7bH1PlGsg2YtrpOe4bndXI"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="bg-gradient-to-br from-prime-2 to-prime-1 mt-3 px-3 py-1 w-full tracking-wider xd-prime-b rounded-2xl md:w-1/2">
+                Download
+              </button>
+            </a>
           </div>
         </div>
         {/* TERMS CONDITION */}
