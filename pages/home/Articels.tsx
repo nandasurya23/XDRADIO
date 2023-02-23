@@ -6,7 +6,7 @@ import Image from "next/image";
 /* eslint-disable @next/next/no-img-element */
 const Articels = () => {
   return (
-    <section className="bg-prime-1">
+    <section className="bg-prime-5">
       <div className={clsx("container px-3 mx-auto py-10")}>
         <h1
           className={clsx(

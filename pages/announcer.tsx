@@ -9,11 +9,7 @@ import ReactAudioPlayer from "react-audio-player";
 
 const announcer = () => {
   return (
-    <section
-      className={clsx(
-        "w-full bg-gradient-to-b from-prime-1 to-prime-4 pt-32 pb-12 text-white "
-      )}
-    >
+    <section className={clsx("w-full bg-prime-5 pt-32 pb-12 text-white ")}>
       <div className="container px-3 mx-auto">
         <ReactAudioPlayer
           src="https://c4.siar.us:8940/stream"

@@ -6,19 +6,15 @@ import ReactAudioPlayer from "react-audio-player";
 
 const Gallery = () => {
   return (
-    <section
-      className={clsx(
-        "w-full bg-gradient-to-b from-prime-1 to-prime-4 pt-32 pb-12 text-white"
-      )}
-    >
+    <section className={clsx("w-full bg-prime-5 pt-32 pb-12 text-white")}>
       <div className="container px-3 mx-auto">
         <div className="text-xl text-center pt-5 font-semibold space-y-3 md:text-3xl">
           <h1 className="text-prime-2"> XD GALLERY</h1>
           <ReactAudioPlayer
-                src="https://c4.siar.us:8940/stream"
-                autoPlay
-                controls={false}
-              />
+            src="https://c4.siar.us:8940/stream"
+            autoPlay
+            controls={false}
+          />
         </div>
         <div className="grid grid-cols-1 gap-5 mt-10 md:grid-cols-2 md:gap-10">
           {gallery.map((items) => {

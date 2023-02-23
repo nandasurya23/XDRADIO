@@ -6,11 +6,7 @@ import ReactAudioPlayer from "react-audio-player";
 
 const program = () => {
   return (
-    <section
-      className={clsx(
-        "w-full bg-gradient-to-b from-prime-1 to-prime-4 pt-32 pb-12 text-white"
-      )}
-    >
+    <section className={clsx("w-full bg-prime-5 pt-32 pb-12 text-white")}>
       <div className="container px-3 mx-auto">
         <h1 className="text-prime-2 xd-prime-b font-bold text-xl md:text-3xl">
           XD Radio <span className="text-white">Program</span>

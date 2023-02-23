@@ -47,7 +47,7 @@ const EventSlider = () => {
     ],
   };
   return (
-    <div className={clsx("w-full bg-prime-1 pt-20 pb-5", "md:pt-32 md:pb-12 ")}>
+    <div className={clsx("w-full bg-prime-5 pt-20 pb-5", "md:pt-32 md:pb-12 ")}>
       <div className={clsx("container px-3 mx-auto")}>
         <div className={clsx("py-10")}>
           <Slider {...settings}>

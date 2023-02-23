@@ -16,7 +16,7 @@ const HeroSection = () => {
   return (
     <div
       className={clsx(
-        "w-full bg-prime-1 text-white pt-5 pb-5",
+        "w-full bg-prime-5 text-white pt-5 pb-5",
         "md:pt-10 md:pb-20"
       )}
     >

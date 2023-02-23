@@ -17,6 +17,7 @@ module.exports = {
       "prime-3": "#01223D",
       "prime-4": "#003054",
       "yellow-2": "#FBB034",
+      "prime-5": '#030729'
     },
     fontFamily: {
       Poppins: ["Poppins, sans-serif"],
