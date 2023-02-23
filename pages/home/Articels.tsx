@@ -10,7 +10,7 @@ const Articels = () => {
       <div className={clsx("container px-3 mx-auto py-10")}>
         <h1
           className={clsx(
-            "text-xl xd-prime-b font-bold  text-center py-5 text-prime-2 mb-5",
+            "text-2xl xd-prime-b font-bold  text-center py-5 text-prime-2 mb-5",
             "md:text-3xl"
           )}
         >

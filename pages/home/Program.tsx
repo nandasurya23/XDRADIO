@@ -47,7 +47,7 @@ const Program = () => {
   return (
     <section className="bg-prime-1">
       <div className="container px-3 mx-auto xd-prime-b pb-5 md:pb-20">
-        <div className="text-xl text-center pt-5 font-semibold space-y-3 md:text-3xl">
+        <div className="text-2xl text-center pt-10 font-semibold space-y-3 md:text-3xl">
           <h1 className="text-prime-2">ANNOUNCER</h1>
           <h1 className="text-white">XD Radio Yudha</h1>
         </div>

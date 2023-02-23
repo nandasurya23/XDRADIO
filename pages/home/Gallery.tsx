@@ -58,7 +58,7 @@ const Gallery = () => {
   return (
     <section className="bg-gradient-to-b from-prime-1 to-prime-4 xd-prime-b text-white pt-20 pb-20">
       <div className="container mx-auto">
-        <div className="text-xl text-center pt-5 font-semibold space-y-3 md:text-3xl">
+        <div className="text-2xl text-center pt-5 font-semibold space-y-3 md:text-3xl">
           <h1 className="text-prime-2"> XD GALLERY</h1>
           <h1 className="text-white">Expose Your Good Mood and Creativity</h1>
         </div>

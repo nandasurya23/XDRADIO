@@ -60,20 +60,20 @@ const HeroSection = () => {
             >
               XD RADIO YUDHA
             </h1>
-            <p className="text-lg xd-prime-b italic font-bold tracking-wide mt-3">
+            <p className="text-xl xd-prime-b italic font-bold tracking-wide mt-2">
               Your Extra Ordinary Music Station
             </p>
-            <p className="text-sm mt-8 xd-prime-r md:text-base">
+            <p className="text-sm mt-4 xd-prime-r md:text-base">
               XD Radio dengan Station Call “Your Extra Ordinary Music Station”
               akan selalu mmenemani kamu dengan Playlist yang bakal bikin
               suasana Good Mood dan kamu akan selalu Merasa Bahwa HARI INI IS A
-              GOOD DAY !!
+              GOOD DAY !
             </p>
-            <p className="text-sm mt-8 xd-prime-r md:text-base">
+            <p className="text-sm mt-3 xd-prime-r md:text-base">
               So What You Waiting For , Come Test Our Wave !!!!
             </p>
 
-            <div className={clsx("flex justify-start items-center")}>
+            <div className={clsx("flex justify-center items-center")}>
               <button
                 className={clsx(
                   "mt-10 px-5 py-3 rounded-xl bg-gradient-to-br from-prime-2 to-prime-3 text-white w-full text-base tracking-wider shadow-xl xd-prime-b font-bold",

@@ -37,7 +37,7 @@ const program = () => {
                     Monday - Friday 05.00 - 06.00 pm
                   </span>
                 </h3>
-                <p className="text-sm md:text-base xd-prime-r leading-normal">
+                <p className="text-sm text-justify md:text-base xd-prime-r leading-normal">
                   Sunset N Chill ialah Program yang nemenin waktu XD People yang
                   mungkin habis pulang kerja atau Kuliah, hmm atau mungkin juga
                   yang lagi mau otw healing atau Nongki, nah di program ini xd
@@ -66,7 +66,7 @@ const program = () => {
                   “Sareng - Sareng Ngalih Timpal” <br />
                   <span className="text-white">Thursday 03.00 - 04.00 pm</span>
                 </h3>
-                <p className="text-sm md:text-base xd-prime-r leading-normal">
+                <p className="text-sm text-justify md:text-base xd-prime-r leading-normal">
                   Program ini menjawab para semeton xd people di bali sebagai
                   program Exclusif dari xd radio yang bertemakan Full bali
                   dengan berbahasa bali, informasi digital, kreatif, dan
@@ -95,7 +95,7 @@ const program = () => {
                     Monday - Friday 10.00 - 11.00 am
                   </span>
                 </h3>
-                <p className="text-sm md:text-base xd-prime-r leading-normal">
+                <p className="text-sm text-justify md:text-base xd-prime-r leading-normal">
                   Extraordinary Morning adalah Program yang akan menemani XD
                   People semua dalam memulai aktifitas kalian , dimulai dengan
                   konten kreatif nan menarik, info cuaca terkini, informasi
@@ -123,7 +123,7 @@ const program = () => {
                     Monday - Friday 08.00 - 09.00 pm
                   </span>
                 </h3>
-                <p className="text-sm md:text-base xd-prime-r leading-normal">
+                <p className="text-sm text-justify md:text-base xd-prime-r leading-normal">
                   Program Hantu ialah Program spesial yang khusus disuguhkan
                   untuk menemani malam xd people semua, yang dimana di program
                   ini tiap harinya akan selalu mengangkat tema yang berbeda, so
@@ -149,7 +149,7 @@ const program = () => {
                   <br />
                   <span className="text-white">Saturday 9.00 - 12.00 am</span>
                 </h3>
-                <p className="text-sm md:text-base xd-prime-r leading-normal">
+                <p className="text-sm text-justify md:text-base xd-prime-r leading-normal">
                   Program yang khusus untuk nemenin waktu liburan atau kerja xd
                   people semua , dengan konten kreatif, update cuaca, tips dan
                   informasi menarik seputar digital kreatif and lifestyle, juga
