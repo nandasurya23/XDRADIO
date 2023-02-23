@@ -38,15 +38,14 @@ const program = () => {
                   </span>
                 </h3>
                 <p className="text-sm text-justify md:text-base xd-prime-r leading-normal">
-                  Sunset N Chill ialah Program yang nemenin waktu XD People yang
-                  mungkin habis pulang kerja atau Kuliah, hmm atau mungkin juga
-                  yang lagi mau otw healing atau Nongki, nah di program ini xd
-                  radio akan menemani kalian dengan Playlist yang asik untuk di
-                  dengerin dimana aja,, nah xd radio juga bakal bagiin informasi
-                  yang hypbeast banget yang bakal cocok buat xd people semua,,
-                  dan juga kalian bisa titip salam maupun request ke IG xdradio,
+                  Program yang akan nemenin waktu XD People dengan playlist yang
+                  asik untuk nemenin kalian Sore ini untuk menjaga good mood
+                  kamu setelah beraktifitas . XD Radio juga bakal bagiin
+                  informasi hypbeast yang sangat cocok buat para XD People, dan
+                  juga kalian bisa titip salam maupun request ke IG xdradio,
                   nanti pasti bakal di bacain sama kakak - kakak announcer XD
-                  Radio So Ditunggu Request dan salam-nya Ya !!!
+                  Radio <br />
+                  So Ditunggu Request dan salam-nya Ya
                 </p>
               </div>
             </div>
@@ -68,12 +67,11 @@ const program = () => {
                 </h3>
                 <p className="text-sm text-justify md:text-base xd-prime-r leading-normal">
                   Program ini menjawab para semeton xd people di bali sebagai
-                  program Exclusif dari xd radio yang bertemakan Full bali
-                  dengan berbahasa bali, informasi digital, kreatif, dan
-                  lifestyle seputaran bali , dan juga yang paling di tunggu
-                  tentunya Playlist dari musisi musisi bali so di tunggu yaa,
-                  dan ada segment Sapal juga XD people yaitu Sapa - Sapa
-                  Timpal,, so Stay Tune On Program SasengempaL !!!
+                  program Exclusif dari xd radio yang bertemakan Balinese Style,
+                  dengan membagikan informasi digital, kreatif, dan lifestyle di
+                  bali , dan yang paling di tunggu tentunya Playlist dari
+                  musisi-musisi bali, juga ada segment Sapal yaitu Sapa - Sapa
+                  Timpal,, so Stay Tune On Program SasengempaL.
                 </p>
               </div>
             </div>
@@ -99,9 +97,9 @@ const program = () => {
                   Extraordinary Morning adalah Program yang akan menemani XD
                   People semua dalam memulai aktifitas kalian , dimulai dengan
                   konten kreatif nan menarik, info cuaca terkini, informasi
-                  uptodate seputar digital, kreatif, dan lifestyle juga Playlist
-                  yang akan bantu ngebangun mood Kamu dalam memulai Hari - Hari
-                  XD People, So Stay Tune Ya !!!
+                  uptodate seputar digital, kreatif, dan lifestyle, juga
+                  playlist yang akan bantu ngebangun mood kamu dalam memulai
+                  hari - hari XD People, So Stay Tune Ya.
                 </p>
               </div>
             </div>
@@ -124,7 +122,7 @@ const program = () => {
                   </span>
                 </h3>
                 <p className="text-sm text-justify md:text-base xd-prime-r leading-normal">
-                  Program Hantu ialah Program spesial yang khusus disuguhkan
+                  Program Hantu ialah program spesial yang khusus disuguhkan
                   untuk menemani malam xd people semua, yang dimana di program
                   ini tiap harinya akan selalu mengangkat tema yang berbeda, so
                   bagi xd people yang mungkin ingin menambah wawasan sambil
