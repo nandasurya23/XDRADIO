@@ -1,6 +1,7 @@
 import { clsx } from "clsx";
 import React from "react";
 import Image from "next/image";
+import ReactAudioPlayer from "react-audio-player";
 
 const xd_rate = () => {
   return (
@@ -12,6 +13,11 @@ const xd_rate = () => {
       <div className="container px-3 mx-auto">
         <div className="flex flex-col justify-between items-center lg:flex-row">
           <div className="grid grid-cols-1 w-full gap-5 mt-5 md:grid-cols-2 lg:mt-0">
+            <ReactAudioPlayer
+              src="https://c4.siar.us:8940/stream"
+              autoPlay
+              controls={false}
+            />
             {/* Spot */}
             <div className="px-5 py-5 bg-prime-3 w-full rounded-2xl">
               <h1 className="text-xl xd-prime-b text-prime-2 font-semibold md:text-3xl">

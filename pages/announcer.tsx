@@ -5,6 +5,7 @@ import { clsx } from "clsx";
 import React from "react";
 import { detail_annoucer } from "./api/data/detail_announcer";
 import Image from "next/image";
+import ReactAudioPlayer from "react-audio-player";
 
 const announcer = () => {
   return (
@@ -14,6 +15,11 @@ const announcer = () => {
       )}
     >
       <div className="container px-3 mx-auto">
+        <ReactAudioPlayer
+          src="https://c4.siar.us:8940/stream"
+          autoPlay
+          controls={false}
+        />
         <h1 className="xd-prime-b font-bold text-center text-3xl md:text-5xl text-prime-2">
           ANNOUNCER
         </h1>

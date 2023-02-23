@@ -2,6 +2,7 @@
 import { clsx } from "clsx";
 import React from "react";
 import Image from "next/image";
+import ReactAudioPlayer from "react-audio-player";
 
 const program = () => {
   return (
@@ -13,6 +14,11 @@ const program = () => {
       <div className="container px-3 mx-auto">
         <h1 className="text-prime-2 xd-prime-b font-bold text-xl md:text-3xl">
           XD Radio <span className="text-white">Program</span>
+          <ReactAudioPlayer
+            src="https://c4.siar.us:8940/stream"
+            autoPlay
+            controls={false}
+          />
         </h1>
         <div className="grid grid-cols-1 gap-4">
           <div className="flex items-center justify-between ">

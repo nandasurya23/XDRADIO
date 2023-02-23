@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { clsx } from "clsx";
 import React from "react";
-import Image from "next/image";
+import ReactAudioPlayer from "react-audio-player";
 
 const about = () => {
   return (
@@ -19,6 +19,11 @@ const about = () => {
               <h1 className="text-xl xd-prime-b text-prime-2 font-semibold md:text-3xl">
                 Profile <span className="text-white">Radio</span>
               </h1>
+              <ReactAudioPlayer
+                src="https://c4.siar.us:8940/stream"
+                autoPlay
+                controls={false}
+              />
               <div className="xd-prime-r mt-3">
                 <div className="flex flex-col">
                   <p className="text-lg text-prime-2">Badan Hukum</p>
