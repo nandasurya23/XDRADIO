@@ -38,7 +38,7 @@ const about = () => {
                   <p>Your Extra Ordinary Music Station</p>
                 </div>
                 <div className="flex flex-col mt-3">
-                  <p className="text-lg text-prime-2">Frequnsi</p>
+                  <p className="text-lg text-prime-2">Frequensi</p>
                   <p>90.2 Fm</p>
                 </div>
                 <div className="flex flex-col mt-3">
@@ -97,11 +97,11 @@ const about = () => {
                   </div>
                   <div className="flex flex-col mt-3">
                     <p className="text-lg text-prime-2">Operation Time</p>
-                    <p>5.30 am - 00.00 pm</p>
+                    <p>5.30 am - 00.30 pm</p>
                   </div>
                   <div className="flex flex-col mt-3">
                     <p className="text-lg text-prime-2">Prime Time</p>
-                    <p>15.00 pm - 20.00 pm</p>
+                    <p>3.00 pm - 8.00 pm</p>
                   </div>
                 </div>
               </div>

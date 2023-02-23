@@ -150,15 +150,63 @@ const program = () => {
                   <span className="text-white">Saturday 9.00 - 12.00 am</span>
                 </h3>
                 <p className="text-sm text-justify md:text-base xd-prime-r leading-normal">
-                  Program yang khusus untuk nemenin waktu liburan atau kerja xd
-                  people semua , dengan konten kreatif, update cuaca, tips dan
-                  informasi menarik seputar digital kreatif and lifestyle, juga
-                  playlist yang cocok buat nemenin kamu kerja, healing,
-                  nongkrong pagi- Pagi ataupun yang lagi workout demi gaya hidup
-                  sehat, soo ditunggu ya request lagu dan titip salam dari XD
-                  people semua,,   <br />
-                  come Lets Enjoy Your Weekend With XD Radio on Program Startup
-                  Your Weekend
+                  Program yang khusus untuk nemenin sabtu pagi XD people semua ,
+                  dengan konten kreatif, update cuaca, tips dan informasi
+                  menarik seputar digital kreatif and lifestyle, juga playlist
+                  yang cocok buat nemenin waktu weekend kalian, soo ditunggu ya
+                  request lagu dan titip salam dari XD people semua,, <br />
+                  Lets Enjoy Your Weekend With XD Radio
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center justify-between ">
+            <div className="bg-prime-3 flex flex-col items-center px-3 py-3 rounded-xl mt-5 lg:flex-row">
+              <Image
+                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675678499/xdradio/programs/p4_s1vatx.jpg"
+                alt=""
+                className=" w-full lg:w-96 mx-auto object-cover rounded mr-5"
+                width={800}
+                height={0}
+              />
+              <div className="px-3 py-3 self-start space-y-4">
+                <h3 className="xd-prime-b font-bold text-xl md:text-3xl text-prime-2">
+                  Music Corner
+                  <br />
+                  <span className="text-white">Sunday 05.00 - 07.00 pm</span>
+                </h3>
+                <p className="text-sm text-justify md:text-base xd-prime-r leading-normal">
+                  Program khusus yang nemenin XD People dengan playlist
+                  bertema-kan “all genre” musik namun bukan hanya mendengarkan
+                  musik - musik keren tapi di program ini kita akan membahas
+                  seputar band musik dan genre musik,Jadi ditunggu Request Band
+                  yang ingin dibahas juga request lagu nya, <br />
+                  Start Your Mood On Music Corner
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center justify-between ">
+            <div className="bg-prime-3 flex flex-col items-center px-3 py-3 rounded-xl mt-5 lg:flex-row">
+              <Image
+                src="https://res.cloudinary.com/df82hir2r/image/upload/v1675678523/xdradio/programs/p6_x0rkp4.jpg"
+                alt=""
+                className=" w-full lg:w-96 mx-auto object-cover rounded mr-5"
+                width={800}
+                height={0}
+              />
+              <div className="px-3 py-3 self-start space-y-4">
+                <h3 className="xd-prime-b font-bold text-xl md:text-3xl text-prime-2">
+                  Asian Nite
+                  <br />
+                  <span className="text-white">Friday 07.00 - 09.00 pm</span>
+                </h3>
+                <p className="text-sm text-justify md:text-base xd-prime-r leading-normal">
+                  Program Exclusive Asian yang menghadirkan musik - musik dari
+                  musisi asal asia dan juga membahas seputar musisinya ,jadi
+                  kalian para pencinta Asia dan yang Asian Pride banget Stay
+                  Tune <br />
+                  Enjoy Your Asia with XD Radio
                 </p>
               </div>
             </div>
