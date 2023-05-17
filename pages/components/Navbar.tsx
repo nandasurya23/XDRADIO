@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <section
       className={clsx(
-        "box-border bg-prime-5/50 px-3 py-5 fixed w-full z-50 shadow-xl backdrop-filter backdrop-blur-2xl "
+        "box-border bg-prime-5/50 px-3 py-5 fixed w-full z-50 shadow-xl backdrop-filter backdrop-blur-xl "
       )}
     >
       <div
