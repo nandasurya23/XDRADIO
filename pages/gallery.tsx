@@ -11,7 +11,7 @@ const Gallery = () => {
         <div className="text-xl text-center pt-5 font-semibold space-y-3 md:text-3xl">
           <h1 className="text-prime-2"> XD GALLERY</h1>
           <ReactAudioPlayer
-            src="https://c4.siar.us:8940/stream"
+            src="https://c4.siar.us:8068/stream"
             autoPlay
             controls={false}
           />

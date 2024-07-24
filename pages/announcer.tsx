@@ -12,7 +12,7 @@ const announcer = () => {
     <section className={clsx("w-full bg-prime-5 pt-32 pb-12 text-white ")}>
       <div className="container px-3 mx-auto">
         <ReactAudioPlayer
-          src="https://c4.siar.us:8940/stream"
+          src="https://c4.siar.us:8068/stream"
           autoPlay
           controls={false}
         />

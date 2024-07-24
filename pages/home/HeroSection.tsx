@@ -82,7 +82,7 @@ const HeroSection = () => {
                 )}
               >
                 <a
-                  href="https://c4.siar.us:8940/stream"
+                  href="https://c4.siar.us:8068/stream"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -90,7 +90,7 @@ const HeroSection = () => {
                 </a>
               </button>
               <ReactAudioPlayer
-                src="https://c4.siar.us:8940/stream"
+                src="https://c4.siar.us:8068/stream"
                 autoPlay
                 controls={false}
               />

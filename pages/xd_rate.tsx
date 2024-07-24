@@ -14,7 +14,7 @@ const xd_rate = () => {
         <div className="flex flex-col justify-between items-center lg:flex-row">
           <div className="grid grid-cols-1 w-full gap-5 mt-5 md:grid-cols-2 lg:mt-0">
             <ReactAudioPlayer
-              src="https://c4.siar.us:8940/stream"
+              src="https://c4.siar.us:8068/stream"
               autoPlay
               controls={false}
             />

@@ -16,7 +16,7 @@ const about = () => {
                 Profile <span className="text-white">Radio</span>
               </h1>
               <ReactAudioPlayer
-                src="https://c4.siar.us:8940/stream"
+                src="https://c4.siar.us:8068/stream"
                 autoPlay
                 controls={false}
               />

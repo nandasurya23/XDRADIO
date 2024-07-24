@@ -11,7 +11,7 @@ const program = () => {
         <h1 className="text-prime-2 xd-prime-b font-bold text-xl md:text-3xl">
           XD Radio <span className="text-white">Program</span>
           <ReactAudioPlayer
-            src="https://c4.siar.us:8940/stream"
+            src="https://c4.siar.us:8068/stream"
             autoPlay
             controls={false}
           />
